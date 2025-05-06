@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions.Text" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="ArrangeConversation.Text" xml:space="preserve">
+    <value>Konuşma</value>
+  </data>
+  <data name="ArrangeDate.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="ArrangeFrom.Text" xml:space="preserve">
+    <value>Kimden</value>
+  </data>
+  <data name="ArrangeMessages.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Attach.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="Attachments.Text" xml:space="preserve">
+    <value>Ek Dosya(lar)</value>
+  </data>
+  <data name="Browse.Text" xml:space="preserve">
+    <value>Siteden Göz At</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ComposeNewMessage.Text" xml:space="preserve">
+    <value>Yeni Mesaj Oluştur</value>
+  </data>
+  <data name="DismissThis.Text" xml:space="preserve">
+    <value>Bunu Kapat</value>
+  </data>
+  <data name="DismissAllNotifications.Text" xml:space="preserve">
+    <value>Tüm Bildirimleri Kapat</value>
+  </data>
+  <data name="DismissAllConfirm.Text" xml:space="preserve">
+    <value>Tüm {0} bildirimi kapatmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="EditModule.Text" xml:space="preserve">
+    <value>Modülü Düzenle</value>
+  </data>
+  <data name="FileSize.Header" xml:space="preserve">
+    <value>Dosya Boyutu:</value>
+  </data>
+  <data name="Filter.Text" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="FilterCategory.Text" xml:space="preserve">
+    <value>kategori</value>
+  </data>
+  <data name="FilterFriends.Text" xml:space="preserve">
+    <value>arkadaşlar</value>
+  </data>
+  <data name="FilterFrom.Text" xml:space="preserve">
+    <value>dan</value>
+  </data>
+  <data name="FilterGroups.Text" xml:space="preserve">
+    <value>gruplar</value>
+  </data>
+  <data name="FilterUnread.Text" xml:space="preserve">
+    <value>okunmamış</value>
+  </data>
+  <data name="FilterViewAll.Text" xml:space="preserve">
+    <value>Tümünü gör</value>
+  </data>
+  <data name="LastModified.Header" xml:space="preserve">
+    <value>Son değiştirilen</value>
+  </data>
+  <data name="LoadMore.Text" xml:space="preserve">
+    <value>Daha Fazla Yükle</value>
+  </data>
+  <data name="MarkArchive.Text" xml:space="preserve">
+    <value>Arşiv</value>
+  </data>
+  <data name="MarkRead.Text" xml:space="preserve">
+    <value>Okundu Olarak İşaretle</value>
+  </data>
+  <data name="MarkUnread.Text" xml:space="preserve">
+    <value>Okunmamış Olarak İşaretle</value>
+  </data>
+  <data name="Message.Text" xml:space="preserve">
+    <value>Mesajınız:</value>
+  </data>
+  <data name="MessageSent.Text" xml:space="preserve">
+    <value>Mesajınız başarıyla gönderildi.</value>
+  </data>
+  <data name="MessageSentTitle.Text" xml:space="preserve">
+    <value>Mesaj Gönderildi</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="NoResults.Text" xml:space="preserve">
+    <value>Sonuç bulunamadı</value>
+  </data>
+  <data name="Read.Text" xml:space="preserve">
+    <value>Oku</value>
+  </data>
+  <data name="ReadStatusToggle.Text" xml:space="preserve">
+    <value>Okundu veya Okunmadı olarak işaretle</value>
+  </data>
+  <data name="Remove.Text" xml:space="preserve">
+    <value>Eki kaldır</value>
+  </data>
+  <data name="Reply.Text" xml:space="preserve">
+    <value>Yanıtla</value>
+  </data>
+  <data name="Searching.Text" xml:space="preserve">
+    <value>Aranıyor...</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="Send.Text" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="Subject.Text" xml:space="preserve">
+    <value>Konu:</value>
+  </data>
+  <data name="Throttling.Text" xml:space="preserve">
+    <value>Yeni bir mesaj göndermeden önce lütfen bekleyin.</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Mesaj Oluştur</value>
+  </data>
+  <data name="To.Text" xml:space="preserve">
+    <value>Gönderilecek Kişi:</value>
+  </data>
+  <data name="Type.Header" xml:space="preserve">
+    <value>Tür</value>
+  </data>
+  <data name="Unread.Text" xml:space="preserve">
+    <value>Okunmamış</value>
+  </data>
+  <data name="UserFileManagerTitle.Text" xml:space="preserve">
+    <value>Kullanmak için dosya seçin</value>
+  </data>
+  <data name="ApplyActionToMessages.Text" xml:space="preserve">
+    <value>Mesajlarınıza Bir Eylem Uygulayın</value>
+  </data>
+  <data name="Archived.Text" xml:space="preserve">
+    <value>Arşivlenmiş</value>
+  </data>
+  <data name="ArchivedMessages.Text" xml:space="preserve">
+    <value>Arşivlenmiş Mesajlar</value>
+  </data>
+  <data name="ArchiveMessages.Text" xml:space="preserve">
+    <value>Mesaj(lar)ı Arşivle</value>
+  </data>
+  <data name="BackToMessages.Text" xml:space="preserve">
+    <value>Mesajlara Geri Dön</value>
+  </data>
+  <data name="ConversationArchived.Text" xml:space="preserve">
+    <value>Sohbet arşivlendi.</value>
+  </data>
+  <data name="ConversationSetAsRead.Text" xml:space="preserve">
+    <value>Sohbet okundu olarak işaretlendi.</value>
+  </data>
+  <data name="ConversationSetAsUnread.Text" xml:space="preserve">
+    <value>Sohbet okunmadı olarak işaretlendi.</value>
+  </data>
+  <data name="ConversationUnarchived.Text" xml:space="preserve">
+    <value>Sohbet arşivden çıkarıldı.</value>
+  </data>
+  <data name="Conversations.Text" xml:space="preserve">
+    <value>Sohbetler</value>
+  </data>
+  <data name="Loading.Text" xml:space="preserve">
+    <value>yükleniyor...</value>
+  </data>
+  <data name="LoadingContent.Text" xml:space="preserve">
+    <value>İçerik Yükleniyor...</value>
+  </data>
+  <data name="MarkUnarchive.Text" xml:space="preserve">
+    <value>Arşivden Çıkar</value>
+  </data>
+  <data name="Messages.Text" xml:space="preserve">
+    <value>Mesajlar</value>
+  </data>
+  <data name="NewUnreadMessages.Text" xml:space="preserve">
+    <value>Yeni okunmamış mesajlar</value>
+  </data>
+  <data name="SelectMessages.Text" xml:space="preserve">
+    <value>Mesajları Seç</value>
+  </data>
+  <data name="Sent.Text" xml:space="preserve">
+    <value>Gönderildi</value>
+  </data>
+  <data name="SentMessages.Text" xml:space="preserve">
+    <value>Gönderilen Mesajlar</value>
+  </data>
+  <data name="ShowPreviousReplies.Text" xml:space="preserve">
+    <value>Önceki Yanıtları Göster</value>
+  </data>
+  <data name="PermissionsNotProperlySet.Text" xml:space="preserve">
+    <value>Modül izinleri düzgün bir şekilde ayarlanmamış. Modül, kimliği doğrulanmamış kullanıcılar için görünür olmamalı. Lütfen düzeltin.</value>
+  </data>
+  <data name="ContentNotAvailable.Text" xml:space="preserve">
+    <value>Bu modülün içeriği kimliği doğrulanmamış kullanıcılar tarafından görüntülenemez. Lütfen içeriğini görmek için giriş yapın.</value>
+  </data>
+  <data name="Notifications.Text" xml:space="preserve">
+    <value>Bildirimler</value>
+  </data>
+  <data name="Of.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="TotalNotifications.Text" xml:space="preserve">
+    <value>Toplam bildirimler</value>
+  </data>
+  <data name="From.Text" xml:space="preserve">
+    <value>Kimden</value>
+  </data>
+  <data name="SentTo.Text" xml:space="preserve">
+    <value>Kime</value>
+  </data>
+  <data name="NotificationConfirmNo.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="NotificationConfirmTitle.Text" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="NotificationConfirmYes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="ActionNotPerformed.Text" xml:space="preserve">
+    <value>İşlem gerçekleştirilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ActionPerformed.Text" xml:space="preserve">
+    <value>İşlem başarıyla gerçekleştirildi.</value>
+  </data>
+  <data name="ReplyHasNoRecipients.Text" xml:space="preserve">
+    <value>Mesaj artık geçerli alıcıları olmadığı için yanıtlar devre dışı bırakıldı.</value>
+  </data>
+  <data name="ServerError.Text" xml:space="preserve">
+    <value>İstek işlenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="ServerErrorWithDescription.Text" xml:space="preserve">
+    <value>İstek işlenirken bir hata oluştu:</value>
+  </data>
+  <data name="CreateMessageError.Text" xml:space="preserve">
+    <value>Mesaj oluşturulurken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="CreateMessageErrorWithDescription.Text" xml:space="preserve">
+    <value>Mesaj oluşturulurken bir hata oluştu:</value>
+  </data>
+  <data name="AutoSuggestError.Text" xml:space="preserve">
+    <value>Öneriler alınırken bir hata oluştu:</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>Bilgisayardan Yükle</value>
+  </data>
+  <data name="Subscriptions.Text" xml:space="preserve">
+    <value>Abonelikler</value>
+  </data>
+  <data name="Action.Text" xml:space="preserve">
+    <value>Eylem</value>
+  </data>
+  <data name="Activity.Text" xml:space="preserve">
+    <value>Aktivite</value>
+  </data>
+  <data name="ManageSubscriptions.Text" xml:space="preserve">
+    <value>Abonelikleri Yönet</value>
+  </data>
+  <data name="Frequency.Text" xml:space="preserve">
+    <value>Sıklık</value>
+  </data>
+  <data name="lblMessageFreq.Help" xml:space="preserve">
+    <value>Yeni mesajları bildiren e-postaları ne sıklıkla alacağınızı seçin.</value>
+  </data>
+  <data name="lblMessageFreq.Text" xml:space="preserve">
+    <value>Mesaj Özeti Sıklığı:</value>
+  </data>
+  <data name="lblNotificationFreq.Help" xml:space="preserve">
+    <value>Site bildirimlerini bildiren e-postaları ne sıklıkla alacağınızı seçin.</value>
+  </data>
+  <data name="lblNotificationFreq.Text" xml:space="preserve">
+    <value>Bildirim Özeti Sıklığı:</value>
+  </data>
+  <data name="EmailDeliverySchedule.Text" xml:space="preserve">
+    <value>E-posta Teslimat Programı</value>
+  </data>
+  <data name="PrefSaved.Text" xml:space="preserve">
+    <value>Tercihleriniz güncellendi.</value>
+  </data>
+  <data name="SearchFilter.Text" xml:space="preserve">
+    <value>Arama Filtresi</value>
+  </data>
+  <data name="SubscriptionType.Text" xml:space="preserve">
+    <value>Abonelik Türü</value>
+  </data>
+  <data name="Unsubscribe.Text" xml:space="preserve">
+    <value>Abonelikten Çık</value>
+  </data>
+  <data name="SubscribedDescription.Text" xml:space="preserve">
+    <value>Öğe</value>
+  </data>
+  <data name="Unsubscribed.Text" xml:space="preserve">
+    <value>Başarıyla abonelikten çıkarıldınız.</value>
+  </data>
+  <data name="lblSubscriptions.Help" xml:space="preserve">
+    <value>Aboneliklerinizi görüntüleyin ve yönetin.</value>
+  </data>
+  <data name="lblSubscriptions.Text" xml:space="preserve">
+    <value>Abonelikler:</value>
+  </data>
+  <data name="DNNCorp_Answers_Question.Text" xml:space="preserve">
+    <value>Cevaplar Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Blogs.Text" xml:space="preserve">
+    <value>Bloglar Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Challenges_Challenge.Text" xml:space="preserve">
+    <value>Meydan Okumalar Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Discussions_Topic.Text" xml:space="preserve">
+    <value>Tartışmalar Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_File.Text" xml:space="preserve">
+    <value>Dosya Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Folder.Text" xml:space="preserve">
+    <value>Klasör Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Groups_CreatedApprovedGroup.Text" xml:space="preserve">
+    <value>Grup Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Ideas.Text" xml:space="preserve">
+    <value>Fikir Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_SocialEvents_Event.Text" xml:space="preserve">
+    <value>Etkinlik Abonelikleri</value>
+  </data>
+  <data name="DNNCorp_Wiki_Page.Text" xml:space="preserve">
+    <value>Wiki Abonelikleri</value>
+  </data>
+</root>
