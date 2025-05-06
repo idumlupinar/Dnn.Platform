@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plWorkflow1.Text" xml:space="preserve">
+    <value>İş Akışı</value>
+  </data>
+  <data name="plWorkflow1.Help" xml:space="preserve">
+    <value>Yönetilecek Bir İş Akışı Seçin</value>
+  </data>
+  <data name="plWorkflow2.Text" xml:space="preserve">
+    <value>İş Akışı</value>
+  </data>
+  <data name="plWorkflow2.Help" xml:space="preserve">
+    <value>İş Akışı İçin Bir Ad Girin</value>
+  </data>
+  <data name="plDescription.Text" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="plDescription.Help" xml:space="preserve">
+    <value>İş Akışı İçin Bir Açıklama Girin</value>
+  </data>
+  <data name="plHistory.Text" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="plHistory.Help" xml:space="preserve">
+    <value>Saklanacak Maksimum Sürüm Sayısını Belirtin</value>
+  </data>
+  <data name="plDeleted.Text" xml:space="preserve">
+    <value>Silindi</value>
+  </data>
+  <data name="plDeleted.Help" xml:space="preserve">
+    <value>Bu İş Akışının Aktif Olup Olmadığını Belirtin</value>
+  </data>
+  <data name="cmdAddWorkflow.Text" xml:space="preserve">
+    <value>Yeni İş Akışı Ekle</value>
+  </data>
+  <data name="WorkflowExists.Text" xml:space="preserve">
+    <value>Bu Site İçin Zaten Belirtilen İsimde Bir İş Akışı Mevcut</value>
+  </data>
+  <data name="dshStates.Text" xml:space="preserve">
+    <value>Durumlar</value>
+  </data>
+  <data name="State.Header" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="Active.Header" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="cmdAddState.Text" xml:space="preserve">
+    <value>Yeni Durum Ekle</value>
+  </data>
+  <data name="dshPermissions.Text" xml:space="preserve">
+    <value>Durum Yapılandırması</value>
+  </data>
+  <data name="plState.Text" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="plState.Help" xml:space="preserve">
+    <value>Durum İçin Bir İsim Girin</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>İnceleyiciler</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Durum İçin İçeriği İnceleyebilecek Kişileri Belirtin</value>
+  </data>
+  <data name="plNotify.Text" xml:space="preserve">
+    <value>Bildirim</value>
+  </data>
+  <data name="plNotify.Help" xml:space="preserve">
+    <value>Yazarın ve İnceleyicilerin Durumla İlgili E-posta Bildirimleri Alıp Almayacağını Belirtin</value>
+  </data>
+  <data name="plActive.Text" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="plActive.Help" xml:space="preserve">
+    <value>Durumun Aktif Olup Olmadığını Belirtin</value>
+  </data>
+  <data name="dshVersions.Text" xml:space="preserve">
+    <value>Sürüm Geçmişi</value>
+  </data>
+  <data name="plMaximumVersionHistory.Text" xml:space="preserve">
+    <value>Geçmiş</value>
+  </data>
+  <data name="plMaximumVersionHistory.Help" xml:space="preserve">
+    <value>Bir modül için saklanacak içerik sürümlerinin maksimum sayısını belirtin (tüm sürümleri saklamak için sıfır girin)</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;P&gt;Metin/HTML Modülü düz metin, zengin metin veya HTML oluşturur. Beş farklı düzenleme görünümü mevcuttur: &lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Temel Metin Kutusu / Metin&lt;/STRONG&gt;: Temel metni ve HTML etiketlerini oluşturur. Yeni bir satıra girilen metin bir satır kesme olarak oluşturulur. Metin stili, stil sayfanızda ayarlanan Normal stildir. 
+&lt;LI&gt;&lt;STRONG&gt;Temel Metin Kutusu / HTML&lt;/STRONG&gt;: Temel metni HTML formatında gösterir.
+&lt;LI&gt;&lt;STRONG&gt;Temel Metin Kutusu / Ham&lt;/STRONG&gt;: Temel metni HTML formatında gösterir. Yeni bir satıra girilen metin bir satır kesme olarak oluşturulmaz.
+&lt;LI&gt;&lt;STRONG&gt;Zengin Metin Düzenleyici / HTML&lt;/STRONG&gt;: Diğer kaynaklardan HTML yapıştırmanıza izin verir.
+&lt;LI&gt;&lt;STRONG&gt;Zengin Metin Düzenleyici / Tasarım&lt;/STRONG&gt;: Hipervezgeler, e-posta bağlantıları, Dosya Yöneticisi resim galerisi, madde işaretleri, yazım denetimi ve daha fazlası gibi işlevlere sahip tam bir kelime işlemci veya WYSIWYG (Ne Görüyorsanız Onu Alırsınız) düzenleyici.</value>
+  </data>
+  <data name="ControlTitle_workflow.Text" xml:space="preserve">
+    <value>İş Akışlarını Yönet</value>
+  </data>
+  <data name="WorkFlowStateHelp.Text" xml:space="preserve">
+    <value>Bu bölümde iş akış durumlarını yönetebilirsiniz. Bir iş akışı kullanılmaya başladığında, iş akışıyla ilişkilendirilen herhangi bir iş akışı durumunu silemezsiniz. Ayrıca, bir iş akışının ilk ve son iş akışı durumları silinemez.</value>
+  </data>
+</root>
