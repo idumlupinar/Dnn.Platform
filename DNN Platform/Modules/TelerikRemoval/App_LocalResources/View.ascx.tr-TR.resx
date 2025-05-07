@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TelerikInstalledAndUsedInfo.Text" xml:space="preserve">
+    <value>Kurulumunuz, aşağıdaki derlemelerde Telerik kullanmaktadır:</value>
+  </data>
+  <data name="TelerikInstalledAndUsedWarning.Text" xml:space="preserve">
+    <value>Telerik'e bağımlı uzantılarınızın olduğu görünüyor. Tespit ettiğimiz ve yukarıda listelediğimiz bağımlılıkları kaldıramıyoruz. Ancak, lütfen Telerik'i doğru şekilde yamaladığınızdan ve DNN Platform tarafından dağıtılan tüm Telerik bileşenlerini kaldırdığınızdan emin olun. Talimatları &lt;a href="https://docs.dnncommunity.org/content/getting-started/setup/telerik-removal/index.html" target="_blank"&gt;burada&lt;/a&gt; bulabilirsiniz. Bu bağımlılıklarla DNN 10'a yükseltemeyeceğinizi unutmayın, onlar kendi kopyalarıyla dağıtılmadıkça.</value>
+  </data>
+  <data name="TelerikInstalledButNotUsedInfo.Text" xml:space="preserve">
+    <value>Kurulumunuzun bu bileşenleri kullanmadığı görünüyor, bu nedenle güvenliğinizi artırmak için şimdi bunları kaldırmalısınız.</value>
+  </data>
+  <data name="TelerikInstalledHeading.Text" xml:space="preserve">
+    <value>Güvenlik Uyarısı</value>
+  </data>
+  <data name="TelerikInstalledDetected.Text" xml:space="preserve">
+    <value>Daha önce dağıtılan Telerik geliştirici bileşenlerinin varlığını tespit ettik. Tespit edilen Telerik sürümü:</value>
+  </data>
+  <data name="TelerikInstalledBulletin.Text" xml:space="preserve">
+    <value>Ağustos 2021'de yüksek düzeyde güvenlik açıklarından dolayı bu bileşenin derhal kaldırılmasını öneren bir Güvenlik Bülteni yayınlandı. Daha fazlasını &lt;a href="https://dnncommunity.org/security" target="_blank"&gt;DNN Güvenlik Merkezi&lt;/a&gt;'nde okuyabilirsiniz.</value>
+  </data>
+  <data name="TelerikNotInstalledHeading.Text" xml:space="preserve">
+    <value>Gelecekteki Güncellemelere Hazır</value>
+  </data>
+  <data name="TelerikNotInstalledInfo.Text" xml:space="preserve">
+    <value>Telerik'i kaldırdığınızı onayladık, bu da sitenizi DNN 10.0.0'a hazır hale getiriyor.</value>
+  </data>
+  <data name="TelerikUninstallInfo.Text" xml:space="preserve">
+    <value>Lütfen aşağıdan "Evet" seçeneğini seçerseniz, &lt;a href="https://docs.dnncommunity.org/content/getting-started/setup/telerik-removal/index.html" target="_blank"&gt;bu adımları&lt;/a&gt; otomatik olarak tamamlayacaktır.</value>
+  </data>
+  <data name="TelerikUninstallNo.Text" xml:space="preserve">
+    <value>Hayır, Sitemi Güvensiz Bırak</value>
+  </data>
+  <data name="TelerikUninstallYes.Text" xml:space="preserve">
+    <value>Evet, Güvenliğimi Artır ve Telerik'i Şimdi Kaldır</value>
+  </data>
+  <data name="TelerikInvalidAntiForgeryToken.Text" xml:space="preserve">
+    <value>Geçersiz Telerik karşıtı sahtekarlık belirteci.</value>
+  </data>
+  <data name="SuperUserRequiredHeading.Text" xml:space="preserve">
+    <value>Süper Kullanıcı Gereklidir</value>
+  </data>
+  <data name="SuperUserRequiredInfo.Text" xml:space="preserve">
+    <value>Bu işlem süper kullanıcı erişim seviyesi gerektirir.</value>
+  </data>
+  <data name="BackupConfirmation.Text" xml:space="preserve">
+    <value>Web sitesi dosyalarımın ve veritabanımın yedeğini aldığımı onaylıyorum.</value>
+  </data>
+  <data name="UninstallReportHeading.Text" xml:space="preserve">
+    <value>Telerik Kaldırma Raporu</value>
+  </data>
+  <data name="RemoveTelerik.Text" xml:space="preserve">
+    <value>Telerik'i Şimdi Kaldır</value>
+  </data>
+  <data name="UninstallReportNotesColumn.Text" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="UninstallReportResultColumn.Text" xml:space="preserve">
+    <value>Sonuç</value>
+  </data>
+  <data name="UninstallReportStepColumn.Text" xml:space="preserve">
+    <value>Adım</value>
+  </data>
+  <data name="UninstallStepCleanupExtensionFilesFormat.Text" xml:space="preserve">
+    <value>'{0}' dosyalarını sil</value>
+  </data>
+  <data name="UninstallStepUpdateDataTypeListFormat.Text" xml:space="preserve">
+    <value>'{0}' için Veri Türü listesinde sağlayıcıyı güncelle</value>
+  </data>
+  <data name="UninstallStepUpdateWebConfigFormat.Text" xml:space="preserve">
+    <value>Web.config: {0} içinden Telerik'i kaldır</value>
+  </data>
+  <data name="UninstallStepCleanupDependencyRecords.Text" xml:space="preserve">
+    <value>'{0}' paketi için bağımlılık kayıtlarını temizle</value>
+  </data>
+  <data name="UninstallStepClearCache.Text" xml:space="preserve">
+    <value>Önbelleği temizle</value>
+  </data>
+  <data name="UninstallStepCountOfFilesDeleted.Text" xml:space="preserve">
+    <value>'{0}' dosyaları silindi.</value>
+  </data>
+  <data name="UninstallStepCountOfMatchesFound.Text" xml:space="preserve">
+    <value>{0} eşleşme bulundu.</value>
+  </data>
+  <data name="UninstallStepCountOfRecordsAffected.Text" xml:space="preserve">
+    <value>{0} kayıt etkilendi.</value>
+  </data>
+  <data name="UninstallStepInstallPackage.Text" xml:space="preserve">
+    <value>'{0}' paketi yükle</value>
+  </data>
+  <data name="UninstallStepInternalError.Text" xml:space="preserve">
+    <value>Dahili hata.</value>
+  </data>
+  <data name="UninstallStepModuleNotFoundInPage.Text" xml:space="preserve">
+    <value>'{0}' modülü '{1}' sayfasında bulunamadı.</value>
+  </data>
+  <data name="UninstallStepNoMatchesFound.Text" xml:space="preserve">
+    <value>Eşleşme bulunamadı.</value>
+  </data>
+  <data name="UninstallStepPackageAlreadyInstalled.Text" xml:space="preserve">
+    <value>'{0}' paketi zaten yüklü.</value>
+  </data>
+  <data name="UninstallStepPackageAlreadyUninstalled.Text" xml:space="preserve">
+    <value>Paket '{0}' zaten kaldırıldı.</value>
+  </data>
+  <data name="UninstallStepPackageNotFound.Text" xml:space="preserve">
+    <value>Paket dosyası '{0}' bulunamadı.</value>
+  </data>
+  <data name="UninstallStepPageNotFoundInPortal.Text" xml:space="preserve">
+    <value>Portal '{1}' içinde sayfa '{0}' bulunamadı.</value>
+  </data>
+  <data name="UninstallStepRemoveBindingRedirects.Text" xml:space="preserve">
+    <value>Telerik montaj bağlantılarını kaldır</value>
+  </data>
+  <data name="UninstallStepRemoveExtension.Text" xml:space="preserve">
+    <value>Uzantı '{0}' kaldır</value>
+  </data>
+  <data name="UninstallStepRemoveRewriteRules.Text" xml:space="preserve">
+    <value>Telerik URL yeniden yazma kurallarını kaldır</value>
+  </data>
+  <data name="UninstallStepRemoveSystemAttribute.Text" xml:space="preserve">
+    <value>Paket '{0}' üzerinde 'System' özelliğini kaldır</value>
+  </data>
+  <data name="UninstallStepReplacePageModule.Text" xml:space="preserve">
+    <value>'{0}' yerine '{1}' ile değiştirin</value>
+  </data>
+  <data name="UninstallStepReplacePortalPageModule.Text" xml:space="preserve">
+    <value>'{0}' yerine '{1}' portal Kimliği '{2}' içinde değiştirin</value>
+  </data>
+  <data name="UninstallStepRequiredPropertiesNotSet.Text" xml:space="preserve">
+    <value>Gerekli özellikler belirtilmemiş: {0}</value>
+  </data>
+  <data name="UninstallStepSectionNotFound.Text" xml:space="preserve">
+    <value>{0} bölümü bulunamadı.</value>
+  </data>
+  <data name="UninstallStepUninstallExtension.Text" xml:space="preserve">
+    <value>'{0}' uzantısını kaldırın</value>
+  </data>
+</root>
