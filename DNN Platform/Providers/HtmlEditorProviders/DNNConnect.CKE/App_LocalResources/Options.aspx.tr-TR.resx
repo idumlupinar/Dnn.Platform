@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblHeader.Text" xml:space="preserve">
+    <value>Bilgiler</value>
+  </data>
+  <data name="lblModType.Text" xml:space="preserve">
+    <value>Modül Türü:</value>
+  </data>
+  <data name="lblModName.Text" xml:space="preserve">
+    <value>Modül Adı:</value>
+  </data>
+  <data name="lblModInst.Text" xml:space="preserve">
+    <value>Modül Örneği:</value>
+  </data>
+  <data name="lblUName.Text" xml:space="preserve">
+    <value>Kullanıcı Adı:</value>
+  </data>
+  <data name="lblSettings.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Error1.Text" xml:space="preserve">
+    <value>Kullanıcının bu sayfayı görüntüleme izni yok.</value>
+  </data>
+  <data name="lblPage.Text" xml:space="preserve">
+    <value>Sayfa:</value>
+  </data>
+  <data name="lblSetFor.Text" xml:space="preserve">
+    <value>Ayarları Değiştir ...</value>
+  </data>
+  <data name="lblBrowAllow.Text" xml:space="preserve">
+    <value>İzin Verilen Roller:</value>
+  </data>
+  <data name="lblBrowser.Text" xml:space="preserve">
+    <value>Dosya Tarayıcı:</value>
+  </data>
+  <data name="lblBrowsSec.Text" xml:space="preserve">
+    <value>Dosya Tarayıcı Ayarları</value>
+  </data>
+  <data name="lblCSSURL.Text" xml:space="preserve">
+    <value>Editör Alanı CSS:</value>
+  </data>
+  <data name="lblPortal.Text" xml:space="preserve">
+    <value>Site Adı:</value>
+  </data>
+  <data name="lblStyles.Text" xml:space="preserve">
+    <value>Editör Stilleri</value>
+  </data>
+  <data name="lblToolbars.Text" xml:space="preserve">
+    <value>Araç çubukları:</value>
+  </data>
+  <data name="lnkRemove.Text" xml:space="preserve">
+    <value>Ayarları Kaldır</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>Ayarlar kaydedildi. Değişiklikleri görmek için Editörü yenileyin veya sayfayı yeniden yükleyin.</value>
+  </data>
+  <data name="lblInfoDel.Text" xml:space="preserve">
+    <value>Ayarlar silindi</value>
+  </data>
+  <data name="lblBlanktext.Text" xml:space="preserve">
+    <value>Boş Metin:</value>
+  </data>
+  <data name="lblRole.Text" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="lblSelToolb.Text" xml:space="preserve">
+    <value>Bir Araç Çubuğu Seçin</value>
+  </data>
+  <data name="Options.Text" xml:space="preserve">
+    <value>Özel Düzenleyici Seçenekleri</value>
+  </data>
+  <data name="lblMainSet.Text" xml:space="preserve">
+    <value>Ana Ayarlar</value>
+  </data>
+  <data name="lblBrowserDirs.Text" xml:space="preserve">
+    <value>Yöneticiler olmayanlar için Alt Klasörler Kullan (..\Portals\0\kullanıcıdosyaları\kullanıcıadı):</value>
+  </data>
+  <data name="lblTemplates.Text" xml:space="preserve">
+    <value>Editör Şablonları</value>
+  </data>
+  <data name="lblTemplFiles.Text" xml:space="preserve">
+    <value>Editör Şablonları Dosyası:</value>
+  </data>
+  <data name="lblCustomConfig.Text" xml:space="preserve">
+    <value>Özel Yapılandırma Dosyası:</value>
+  </data>
+  <data name="AddToolbar.Text" xml:space="preserve">
+    <value>Yeni Araç Çubuğu Seti Ekle</value>
+  </data>
+  <data name="CancelToolbar.Text" xml:space="preserve">
+    <value>Düzenlemeyi İptal Et</value>
+  </data>
+  <data name="DeleteToolbar.Text" xml:space="preserve">
+    <value>Seçili Araç Çubuğu Setini Sil</value>
+  </data>
+  <data name="EditToolbar.Text" xml:space="preserve">
+    <value>Seçili Araç Çubuğu Setini Düzenle</value>
+  </data>
+  <data name="lblCustomToolbars.Text" xml:space="preserve">
+    <value>Özel Araç Çubukları</value>
+  </data>
+  <data name="lblToolbarList.Text" xml:space="preserve">
+    <value>Özel Araç Çubukları Listesi:</value>
+  </data>
+  <data name="lblToolbName.Text" xml:space="preserve">
+    <value>Araç Çubuğu Adı:</value>
+  </data>
+  <data name="lblToolbSet.Text" xml:space="preserve">
+    <value>Kullanılabilir Araç Çubuğu Düğmeleri</value>
+  </data>
+  <data name="SaveToolbar.Text" xml:space="preserve">
+    <value>Araç Çubuğu Setini Kaydet</value>
+  </data>
+  <data name="lblUseJquery.Text" xml:space="preserve">
+    <value>jQuery Adaptörü Kullanılsın mı?</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Editör Yüksekliği (px veya '%') :</value>
+  </data>
+  <data name="lblWidth.Text" xml:space="preserve">
+    <value>Editör Genişliği ('px' veya '%') :</value>
+  </data>
+  <data name="lblImExport.Text" xml:space="preserve">
+    <value>Mevcut Ayarları İçe/Dışa Aktar...</value>
+  </data>
+  <data name="lblResizeHeight.Text" xml:space="preserve">
+    <value>Varsayılan Resim Yeniden Boyut Yüksekliği:</value>
+  </data>
+  <data name="lblResizeWidth.Text" xml:space="preserve">
+    <value>Varsayılan Resim Yeniden Boyutlandırma Genişliği:</value>
+  </data>
+  <data name="lblResizeHeightUpload.Text" xml:space="preserve">
+    <value>Yükleme Sırasında Resim Yeniden Boyutlandırma Yüksekliği:</value>
+  </data>
+  <data name="lblResizeWidthUpload.Text" xml:space="preserve">
+    <value>Yükleme Sırasında Resim Yeniden Boyutlandırma Genişliği:</value>
+  </data>
+  <data name="lnkExport.Text" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="lnkImport.Text" xml:space="preserve">
+    <value>İçe Aktar</value>
+  </data>
+  <data name="BadImportXml.Text" xml:space="preserve">
+    <value>Hatalı veya kötü XML dosyası.</value>
+  </data>
+  <data name="Export.Text" xml:space="preserve">
+    <value>Mevcut Düzenleyici Ayarları Dışa Aktarıldı</value>
+  </data>
+  <data name="Imported.Text" xml:space="preserve">
+    <value>Düzenleyici Ayarları İçin İçe Aktarıldı</value>
+  </data>
+  <data name="lblInjectSyntaxJs.Text" xml:space="preserve">
+    <value>SyntaxHighlighter JS'ye Bağlantı Ekle:</value>
+  </data>
+  <data name="UploadFolderLabel.Text" xml:space="preserve">
+    <value>Varsayılan Yükleme Klasörü:</value>
+  </data>
+  <data name="BrowserRootFolder.Text" xml:space="preserve">
+    <value>Tarayıcı Kök Klasörü:</value>
+  </data>
+  <data name="lblAutoCreateFileThumbNails.Text" xml:space="preserve">
+    <value>Önizleme için Otomatik Resim Küçük Resimleri Oluştur:</value>
+  </data>
+  <data name="lblShowPageLinksTabFirst.Text" xml:space="preserve">
+    <value>Sayfa Bağlantıları Sekmesini İlk Olarak Göster:</value>
+  </data>
+  <data name="lblUseAnchorSelector.Text" xml:space="preserve">
+    <value>Seçili Sayfadaki Tüm Bağlantıları Otomatik Bul (Bağlantı Seçildi):</value>
+  </data>
+  <data name="FileListViewModeLabel.Text" xml:space="preserve">
+    <value>Varsayılan Dosya Listesi Görünüm Modu:</value>
+  </data>
+  <data name="SettingsExportTitle.Text" xml:space="preserve">
+    <value>Ayarlar Dışa Aktarıcı</value>
+  </data>
+  <data name="SettingsImportTitle.Text" xml:space="preserve">
+    <value>Ayarlar İçe Aktarıcı</value>
+  </data>
+  <data name="ExportNow.Text" xml:space="preserve">
+    <value>Şimdi Dışa Aktar</value>
+  </data>
+  <data name="ImportNow.Text" xml:space="preserve">
+    <value>Şimdi İçe Aktar</value>
+  </data>
+  <data name="FileListPageSizeLabel.Text" xml:space="preserve">
+    <value>Dosya Listesi Sayfa Boyutu (0=Sayfalama Yok):</value>
+  </data>
+  <data name="Remove.Help" xml:space="preserve">
+    <value>Sadece Geçerli {0} için Ayarı Kaldırır.</value>
+  </data>
+  <data name="Remove.Text" xml:space="preserve">
+    <value>{0} Ayarlarını Kaldır</value>
+  </data>
+  <data name="RemoveAll.Help" xml:space="preserve">
+    <value>Tüm site {0} ayarlarını kaldırır.</value>
+  </data>
+  <data name="RemoveAll.Text" xml:space="preserve">
+    <value>Tüm {0} Ayarlarını Kaldır</value>
+  </data>
+  <data name="CreateGroupLabel.Text" xml:space="preserve">
+    <value>Yeni Grup Oluştur</value>
+  </data>
+  <data name="CreateGroupTitle.Text" xml:space="preserve">
+    <value>Yeni Grubu Araç Çubuğu Setine Ekle?</value>
+  </data>
+  <data name="DeleteGroup.Text" xml:space="preserve">
+    <value>Bu Araç Çubuğu Grubunu Sil?</value>
+  </data>
+  <data name="DeleteToolbarButton.Text" xml:space="preserve">
+    <value>Bu Araç Çubuğu Düğmesini Kaldır?</value>
+  </data>
+  <data name="EditGroupName.Text" xml:space="preserve">
+    <value>Grup Adını Düzenlemek için Tıklayın</value>
+  </data>
+  <data name="NewGroupName.Text" xml:space="preserve">
+    <value>Yeni Grup</value>
+  </data>
+  <data name="SaveGroupName.Text" xml:space="preserve">
+    <value>Grup Adını Kaydet</value>
+  </data>
+  <data name="lblToolbarPriority.Text" xml:space="preserve">
+    <value>Araç Çubuğu Önceliğini Ayarla:</value>
+  </data>
+  <data name="ToolbarGroupsLabel.Text" xml:space="preserve">
+    <value>Araç Çubuğu Grupları</value>
+  </data>
+  <data name="CodeMirrorLabel.Text" xml:space="preserve">
+    <value>CodeMirror Teması (Kaynak Sözdizimi Vurgulama için):</value>
+  </data>
+  <data name="lblSkin.Text" xml:space="preserve">
+    <value>Tema:</value>
+  </data>
+  <data name="NoJava.Text" xml:space="preserve">
+    <value>&lt;strong&gt;CKEditor'in çalışması için JavaScript gereklidir&lt;/strong&gt;. JavaScript desteği olmayan bir tarayıcıda, sizin gibi, içeriği (HTML verilerini) hala görebilmeli ve zengin bir düzenleyici arayüzü olmadan normal şekilde düzenleyebilmelisiniz.</value>
+  </data>
+  <data name="lblEditorConfig.Text" xml:space="preserve">
+    <value>Editör Yapılandırması</value>
+  </data>
+  <data name="ModuleError.Text" xml:space="preserve">
+    <value>Bir Modül Örneği için Editör Ayarları yalnızca Modül Örneği içinden görüntülenebilir ve yüklenebilir.</value>
+  </data>
+  <data name="ModuleHeader.Text" xml:space="preserve">
+    <value>CKEditor Sağlayıcı Yapılandırma Yöneticisi</value>
+  </data>
+  <data name="PortalOnlyLabel.Text" xml:space="preserve">
+    <value>Bu Site İçin Yalnızca Ayarları Göster veya Tüm Siteler İçin?</value>
+  </data>
+  <data name="PortalOnly.Text" xml:space="preserve">
+    <value>Yalnızca Bu Site</value>
+  </data>
+  <data name="Wait.Text" xml:space="preserve">
+    <value>Lütfen Bekleyin...</value>
+  </data>
+  <data name="WaitMessage.Text" xml:space="preserve">
+    <value>Seçenekler Sayfası Yükleniyor.</value>
+  </data>
+  <data name="ModuleHasSettingLabel.Text" xml:space="preserve">
+    <value>Modül Ayarlarını İçerir</value>
+  </data>
+  <data name="ModuleNoSettingLabel.Text" xml:space="preserve">
+    <value>Modül Ayarları İçermez</value>
+  </data>
+  <data name="PageHasSettingLabel.Text" xml:space="preserve">
+    <value>Sayfa Ayarlarını İçerir</value>
+  </data>
+  <data name="PageNoSettingLabel.Text" xml:space="preserve">
+    <value>Sayfa Ayarları İçermez</value>
+  </data>
+  <data name="PortalHasSettingLabel.Text" xml:space="preserve">
+    <value>Site Ayarlarını İçerir</value>
+  </data>
+  <data name="PortalNoSettingLabel.Text" xml:space="preserve">
+    <value>Site Ayarları İçermez</value>
+  </data>
+  <data name="IconLegendLabel.Text" xml:space="preserve">
+    <value>Simge Açıklaması</value>
+  </data>
+  <data name="EditorConfigWarning.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Bilgi:&lt;/strong&gt; Aşağıdaki Ayarlar sadece Uzmanlar içindir, lütfen sadece ne yaptığınızı biliyorsanız değiştirin. Aşağıdaki Ayarlar hakkında daha fazla bilgi edinmek için &lt;a href="http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html"&gt;&lt;strong&gt;CKEditor JavaScript API Belgelendirme Sayfasını&lt;/strong&gt;&lt;/a&gt; ziyaret edin. Editör yüklendiğinde Ayarları boş bırakabilirsiniz, varsayılan Ayarları yüklemek için.</value>
+  </data>
+  <data name="ModuleInstance.Text" xml:space="preserve">
+    <value>Modül</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="RemoveModuleChild.Help" xml:space="preserve">
+    <value>Geçerli Sayfadaki Tüm Modüllerin Ayarlarını Kaldır</value>
+  </data>
+  <data name="RemoveModuleChild.Text" xml:space="preserve">
+    <value>Sayfa Üzerindeki Tüm Modül Ayarlarını Kaldır</value>
+  </data>
+  <data name="RemovePageChild.Help" xml:space="preserve">
+    <value>Geçerli sayfa için tüm alt sayfa ayarlarını kaldırır.</value>
+  </data>
+  <data name="RemovePageChild.Text" xml:space="preserve">
+    <value>Tüm Alt Sayfa Ayarlarını Kaldır</value>
+  </data>
+  <data name="RowBreak.Text" xml:space="preserve">
+    <value>Satır Sonu</value>
+  </data>
+  <data name="AddRowBreakLabel.Text" xml:space="preserve">
+    <value>Satır Sonu Ekle</value>
+  </data>
+  <data name="AddRowBreakTitle.Text" xml:space="preserve">
+    <value>Araç Çubuğu Setine Yeni Satır Sonu Ekle</value>
+  </data>
+  <data name="DefaultLinkMode0.Text" xml:space="preserve">
+    <value>Göreceli URL</value>
+  </data>
+  <data name="DefaultLinkMode1.Text" xml:space="preserve">
+    <value>Mutlak URL</value>
+  </data>
+  <data name="DefaultLinkMode2.Text" xml:space="preserve">
+    <value>Göreceli Güvenli URL</value>
+  </data>
+  <data name="DefaultLinkMode3.Text" xml:space="preserve">
+    <value>Mutlak Güvenli URL</value>
+  </data>
+  <data name="DefaultLinkModeLabel.Text" xml:space="preserve">
+    <value>Varsayılan Bağlantı Modu:</value>
+  </data>
+  <data name="DetailView.Text" xml:space="preserve">
+    <value>Detay Görünümü</value>
+  </data>
+  <data name="IconsView.Text" xml:space="preserve">
+    <value>Simge Görünümü</value>
+  </data>
+  <data name="ListView.Text" xml:space="preserve">
+    <value>Liste Görünümü</value>
+  </data>
+  <data name="BlanktextTT.Text" xml:space="preserve">
+    <value>Bu, modül içeriğinin boş olduğunda görüntülenen varsayılan metindir.</value>
+  </data>
+  <data name="NewsArcticlesArticlesList.Text" xml:space="preserve">
+    <value>Bir Makale Seçin:</value>
+  </data>
+  <data name="NewsArcticlesModuleList.Text" xml:space="preserve">
+    <value>Sayfayı ve Haber Makaleleri Modül Örneğini Seçin:</value>
+  </data>
+  <data name="ToolbarNameMissing.Text" xml:space="preserve">
+    <value>Bir araç çubuğu adı girmelisiniz.</value>
+  </data>
+  <data name="ToolbarSetCreated.Text" xml:space="preserve">
+    <value>Yeni araç çubuğu seti "{0}" oluşturuldu.</value>
+  </data>
+  <data name="ToolbarSetDeleted.Text" xml:space="preserve">
+    <value>Seçilen araç çubuğu seti silindi.</value>
+  </data>
+  <data name="ToolbarSetSaved.Text" xml:space="preserve">
+    <value>Araç çubuğu seti kaydedildi.</value>
+  </data>
+  <data name="CustomJsFileLabel.Text" xml:space="preserve">
+    <value>Özel JS Dosyası:</value>
+  </data>
+  <data name="OverrideFileOnUploadLabel.Text" xml:space="preserve">
+    <value>Varolan bir dosya yüklenirse üzerine yaz, aksi takdirde alt çizgi _1 ile yeni bir dosya oluşturulur:</value>
+  </data>
+  <data name="CopyPageChild.Help" xml:space="preserve">
+    <value>Tüm alt sayfalara mevcut sayfa ayarlarını kopyala.</value>
+  </data>
+  <data name="CopyPageChild.Text" xml:space="preserve">
+    <value>Ayarları Alt Sayfalara Kopyala</value>
+  </data>
+  <data name="lblInfoCopyAll.Text" xml:space="preserve">
+    <value>Ayarlar tüm alt sayfalara kopyalandı.</value>
+  </data>
+  <data name="SizeLimitLabel.Text" xml:space="preserve">
+    <value>Dosya Yükleme Boyut Sınırı</value>
+  </data>
+  <data name="UploadFileLimitLabel.Text" xml:space="preserve">
+    <value>Dosya Yükleme Sınırları</value>
+  </data>
+  <data name="AllPortals.Text" xml:space="preserve">
+    <value>Tüm Portallar</value>
+  </data>
+  <data name="HostHasSettingLabel.Text" xml:space="preserve">
+    <value>Ana Bilgisayar Ayarlarını İçerir</value>
+  </data>
+  <data name="HostNoSettingLabel.Text" xml:space="preserve">
+    <value>Ana Bilgisayar Ayarlarını İçermez</value>
+  </data>
+  <data name="BrowserRootFolderForImg.Text" xml:space="preserve">
+    <value>Görüntüler için Tarayıcı Kök Klasörü</value>
+  </data>
+  <data name="HostBrowserRootFolder.Text" xml:space="preserve">
+    <value>Tüm portal için Tarayıcı Kök Klasör Adı (aşağıdaki ayarı geçersiz kılar)</value>
+  </data>
+  <data name="HostBrowserRootFolderForImg.Text" xml:space="preserve">
+    <value>Tüm portal için Görüntüler için Tarayıcı Kök Klasör Adı (aşağıdaki ayarı geçersiz kılar)</value>
+  </data>
+  <data name="HostUploadFolderLabel.Text" xml:space="preserve">
+    <value>Tüm portal için Varsayılan Yükleme Klasörü (aşağıdaki ayarı geçersiz kılar)</value>
+  </data>
+  <data name="HostUploadFolderLabelForImg.Text" xml:space="preserve">
+    <value>Tüm portal için Görüntüler için Varsayılan Yükleme Klasörü (aşağıdaki ayarı geçersiz kılar)</value>
+  </data>
+  <data name="BrowAllowFollowPerms.Text" xml:space="preserve">
+    <value>Klasör izinlerine sahip kullanıcılara izin ver</value>
+  </data>
+  <data name="lblBrowAllowFollowPerms.Text" xml:space="preserve">
+    <value>Klasör kullanıcılarına izin ver</value>
+  </data>
+</root>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Pencereyi Kapat</value>
+  </data>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="lblConFiles.Text" xml:space="preserve">
+    <value>İçeren Dosyalar:</value>
+  </data>
+  <data name="lblCurrent.Text" xml:space="preserve">
+    <value>Mevcut Dizin:</value>
+  </data>
+  <data name="lblSubDirs.Text" xml:space="preserve">
+    <value>Dizinler:</value>
+  </data>
+  <data name="cmdDownload.Help" xml:space="preserve">
+    <value>Seçilen dosyayı indir.</value>
+  </data>
+  <data name="cmdDownload.Text" xml:space="preserve">
+    <value>Dosyayı İndir</value>
+  </data>
+  <data name="cmdUpload.Help" xml:space="preserve">
+    <value>Yeni bir dosya yükle.</value>
+  </data>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>Dosya Yükle</value>
+  </data>
+  <data name="Error1.Text" xml:space="preserve">
+    <value>Kullanıcının bu görevi gerçekleştirmek için izni yok.</value>
+  </data>
+  <data name="Error2.Text" xml:space="preserve">
+    <value>Bu dosya uzantısı izin verilmiyor.</value>
+  </data>
+  <data name="Error3.Text" xml:space="preserve">
+    <value>Bu dosya uzantısı izin verilmiyor.</value>
+  </data>
+  <data name="Error4.Text" xml:space="preserve">
+    <value>Kullanıcının bu klasörü görüntüleme izni yok.</value>
+  </data>
+  <data name="Error5.Text" xml:space="preserve">
+    <value>Dosya seçilmedi.</value>
+  </data>
+  <data name="cmdUploadCancel.Text" xml:space="preserve">
+    <value>Yüklemeyi İptal Et</value>
+  </data>
+  <data name="cmdUploadNow.Text" xml:space="preserve">
+    <value>Şimdi Yükle</value>
+  </data>
+  <data name="lblUrlType.Text" xml:space="preserve">
+    <value>URL Türünü Seç:</value>
+  </data>
+  <data name="lblChoosetab.Text" xml:space="preserve">
+    <value>Sayfa Seç:</value>
+  </data>
+  <data name="cmdCreate.Help" xml:space="preserve">
+    <value>Yeni bir alt klasör oluştur</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Yeni Klasör Oluştur</value>
+  </data>
+  <data name="cmdDelete.Help" xml:space="preserve">
+    <value>Seçili dosyayı sil.</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Dosyayı Sil</value>
+  </data>
+  <data name="cmdCreateFolder.Text" xml:space="preserve">
+    <value>Şimdi Oluştur</value>
+  </data>
+  <data name="chkAspect.Text" xml:space="preserve">
+    <value>En Boy Oranını Koru</value>
+  </data>
+  <data name="chkHumanFriendy.Text" xml:space="preserve">
+    <value>İnsan Dostu URL</value>
+  </data>
+  <data name="cmdResizeCancel.Text" xml:space="preserve">
+    <value>Yeniden Boyutlandırmayı İptal Et</value>
+  </data>
+  <data name="cmdResizeNow.Text" xml:space="preserve">
+    <value>Şimdi Boyutlandır</value>
+  </data>
+  <data name="cmdResizer.Help" xml:space="preserve">
+    <value>Seçili resmi düzenleyin.</value>
+  </data>
+  <data name="cmdResizer.Text" xml:space="preserve">
+    <value>Görüntü Düzenleyici</value>
+  </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>Yeni Yükseklik:</value>
+  </data>
+  <data name="lblThumbName.Text" xml:space="preserve">
+    <value>Yeni Dosya Adı:</value>
+  </data>
+  <data name="lblWidth.Text" xml:space="preserve">
+    <value>Yeni Genişlik:</value>
+  </data>
+  <data name="AreYouSure.Text" xml:space="preserve">
+    <value>Bu dosyayı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="lblImgQuality.Text" xml:space="preserve">
+    <value>Görüntü Kalitesi (Sıkıştırma):</value>
+  </data>
+  <data name="cmdCrop.Text" xml:space="preserve">
+    <value>Kırp</value>
+  </data>
+  <data name="cmdCropCancel.Text" xml:space="preserve">
+    <value>Düzenlemeyi İptal Et</value>
+  </data>
+  <data name="cmdCropNow.Text" xml:space="preserve">
+    <value>Yeni Görüntü Oluştur</value>
+  </data>
+  <data name="cmdResize2.Text" xml:space="preserve">
+    <value>Yeniden Boyutlandır</value>
+  </data>
+  <data name="cmdRotate.Text" xml:space="preserve">
+    <value>Döndür</value>
+  </data>
+  <data name="cmdZoom.Text" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="imgOriginal.Text" xml:space="preserve">
+    <value>Orijinal Resim (Ekrana Sığacak Şekilde Ölçeklendirilmiş)</value>
+  </data>
+  <data name="imgResized.Text" xml:space="preserve">
+    <value>Yeniden Boyutlandırılmış Görüntünün Önizlemesi (Ekrana Sığacak Şekilde Ölçeklendirilmiş)</value>
+  </data>
+  <data name="lblClearPreview.Text" xml:space="preserve">
+    <value>Önizlemeyi Temizle</value>
+  </data>
+  <data name="lblCropInfo.Text" xml:space="preserve">
+    <value>Burada düzenlenmiş yeni görüntüyü göreceksiniz</value>
+  </data>
+  <data name="lblOriginal.Text" xml:space="preserve">
+    <value>Orijinal:</value>
+  </data>
+  <data name="lblOtherTools.Text" xml:space="preserve">
+    <value>Diğer Araçlar:</value>
+  </data>
+  <data name="lblPreview.Text" xml:space="preserve">
+    <value>Önizleme:</value>
+  </data>
+  <data name="lblResizeHeader.Text" xml:space="preserve">
+    <value>Görüntü Düzenleyici : Yeniden Boyutlandır</value>
+  </data>
+  <data name="lblResizeHeader2.Text" xml:space="preserve">
+    <value>Görüntü Düzenleyici: Kırpma, Yakınlaştırma ve Döndürme</value>
+  </data>
+  <data name="lblShowPreview.Text" xml:space="preserve">
+    <value>Önizlemeyi Göster</value>
+  </data>
+  <data name="cmdCreateCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="lblNewFoldName.Text" xml:space="preserve">
+    <value>Yeni Klasör Adı:</value>
+  </data>
+  <data name="LabelAnchor.Text" xml:space="preserve">
+    <value>Bir Sayfa Bağı Seçin:</value>
+  </data>
+  <data name="TrackClicks.Text" xml:space="preserve">
+    <value>Bu Bağlantıya Kaç Kez Tıklandığını Takip Edin:</value>
+  </data>
+  <data name="absLnk.Text" xml:space="preserve">
+    <value>Mutlak URL  - &lt;em&gt;'http://www.MyWebsite.com/Images/MyImage.jpg'&lt;/em&gt;</value>
+  </data>
+  <data name="lnkClick.Text" xml:space="preserve">
+    <value>Güvenli URL  - &lt;em&gt;'/LinkClick.aspx?fileticket=xyz'&lt;/em&gt;</value>
+  </data>
+  <data name="relLnk.Text" xml:space="preserve">
+    <value>Göreceli URL  - &lt;em&gt;'/Images/MyImage.jpg'&lt;/em&gt;</value>
+  </data>
+  <data name="Wait.Text" xml:space="preserve">
+    <value>Lütfen Bekleyin…</value>
+  </data>
+  <data name="WaitMessage.Text" xml:space="preserve">
+    <value>Sayfa Yükleniyor ve Bağlantılar Ayrıştırılıyor.</value>
+  </data>
+  <data name="ExtraTabOptions.Text" xml:space="preserve">
+    <value>Sekme Seçenekleri:</value>
+  </data>
+  <data name="LabelTabLanguage.Text" xml:space="preserve">
+    <value>Ek Dil Parametresi:</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="FileLink.Text" xml:space="preserve">
+    <value>Dosya Bağlantısı</value>
+  </data>
+  <data name="PageLink.Text" xml:space="preserve">
+    <value>Sayfa Bağlantısı</value>
+  </data>
+  <data name="DetailView.Text" xml:space="preserve">
+    <value>Detay Görünümü</value>
+  </data>
+  <data name="DetailViewTitle.Text" xml:space="preserve">
+    <value>Her Büyük Resim Önizlemesi, Dosya Adı ve Dosya Bilgisi ile Gösterir.</value>
+  </data>
+  <data name="IconsView.Text" xml:space="preserve">
+    <value>Simge Görünümü</value>
+  </data>
+  <data name="IconsViewTitle.Text" xml:space="preserve">
+    <value>Resim Önizlemesi olarak Kiremitlerle Tüm Dosyaları Gösterir.</value>
+  </data>
+  <data name="ListView.Text" xml:space="preserve">
+    <value>Liste Görünümü</value>
+  </data>
+  <data name="ListViewTitle.Text" xml:space="preserve">
+    <value>Küçük Resim Önizlemesi, Dosya Adı ve Dosya Bilgilerini Gösterir.</value>
+  </data>
+  <data name="FirstPage.Text" xml:space="preserve">
+    <value>İlk Sayfa</value>
+  </data>
+  <data name="GoTo.Text" xml:space="preserve">
+    <value>Git</value>
+  </data>
+  <data name="LastPage.Text" xml:space="preserve">
+    <value>Son Sayfa</value>
+  </data>
+  <data name="NextPage.Text" xml:space="preserve">
+    <value>Sonraki Sayfa</value>
+  </data>
+  <data name="PreviousPage.Text" xml:space="preserve">
+    <value>Önceki Sayfa</value>
+  </data>
+  <data name="SortAscending.Help" xml:space="preserve">
+    <value>Dosya listesini dosya adlarına göre artan sırayla sıralayın.</value>
+  </data>
+  <data name="SortAscending.Text" xml:space="preserve">
+    <value>Artan Sırala</value>
+  </data>
+  <data name="SortDescending.Help" xml:space="preserve">
+    <value>Dosya listesini dosya adlarına göre azalan sırayla sıralayın.</value>
+  </data>
+  <data name="SortDescending.Text" xml:space="preserve">
+    <value>Azalan Sırala</value>
+  </data>
+  <data name="lnkAbsClick.Text" xml:space="preserve">
+    <value>Mutlak Güvenli URL  - &lt;em&gt;'http://www.MyWebsite.com/LinkClick.aspx?fileticket=xyz'&lt;/em&gt;</value>
+  </data>
+  <data name="SpaceUsed.Text" xml:space="preserve">
+    <value>Kullanılan Alan: {0} / {1}</value>
+  </data>
+  <data name="UnlimitedSpace.Text" xml:space="preserve">
+    <value>[sınırsız]</value>
+  </data>
+  <data name="Syncronize.Help" xml:space="preserve">
+    <value>Klasörü Veritabanı ile Senkronize Et</value>
+  </data>
+  <data name="Syncronize.Text" xml:space="preserve">
+    <value>Klasörü Senkronize Et</value>
+  </data>
+  <data name="FileSizeRestriction.Text" xml:space="preserve">
+    <value>Dosya Yükleme Limiti {0} MB. &lt;br /&gt; İzin Verilen Dosya Türleri: "{1}"</value>
+  </data>
+  <data name="FileToBig.Text" xml:space="preserve">
+    <value>Dosya yüklemek için çok büyük.</value>
+  </data>
+  <data name="OverrideFile.Text" xml:space="preserve">
+    <value>Varolan bir dosya varsa üzerine yaz, aksi takdirde alt çizgi _1 ile yeni bir dosya oluşturulsun mu?</value>
+  </data>
+  <data name="FileToBigMessage.Text" xml:space="preserve">
+    <value>Yüklenen dosya izin verilen dosya boyutundan büyük.</value>
+  </data>
+  <data name="AddFiles.Text" xml:space="preserve">
+    <value>Dosya(lar) ekle...</value>
+  </data>
+  <data name="DropHere.Text" xml:space="preserve">
+    <value>Dosya(lar) buraya sürükleyin</value>
+  </data>
+  <data name="StartUploads.Text" xml:space="preserve">
+    <value>Yükleme(leri) başlat</value>
+  </data>
+  <data name="RootFolder.Text" xml:space="preserve">
+    <value>Kök Klasör</value>
+  </data>
+  <data name="BrowserModus.Image.Text" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="BrowserModus.Link.Text" xml:space="preserve">
+    <value>Bağlantı</value>
+  </data>
+  <data name="Created.Text" xml:space="preserve">
+    <value>Oluşturuldu</value>
+  </data>
+  <data name="lblBrowserModus.Text" xml:space="preserve">
+    <value>Tarayıcı Modu: {0}</value>
+  </data>
+  <data name="Size.Text" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="SortByDate.Text" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="SortByDateAscending.Help" xml:space="preserve">
+    <value>Dosya oluşturma tarihine göre dosya listesini artan sırayla sırala.</value>
+  </data>
+  <data name="SortByDateAscending.Text" xml:space="preserve">
+    <value>Artan Tarihe Göre Sırala</value>
+  </data>
+  <data name="SortByDateDescending.Help" xml:space="preserve">
+    <value>Dosya oluşturma tarihine göre dosya listesini azalan sırayla sırala.</value>
+  </data>
+  <data name="SortByDateDescending.Text" xml:space="preserve">
+    <value>Azalan Tarihe Göre Sırala</value>
+  </data>
+  <data name="BrowserModus.Text" xml:space="preserve">
+    <value>Tarayıcı Modu: {0}</value>
+  </data>
+</root>
