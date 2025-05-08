@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Bu öğeyi silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="DeletetUser.Text" xml:space="preserve">
+    <value>Bu kullanıcıyı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="UnregisterUser.Text" xml:space="preserve">
+    <value>Kaydınızı silmek istediğinizden emin misiniz? Bu işlem kullanıcı hesabınızı silecek.</value>
+  </data>
+  <data name="RemoveItem.Text" xml:space="preserve">
+    <value>Bu öğeyi kaldırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="Calendar.Text" xml:space="preserve">
+    <value>Takvim</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="Not_Specified.Text" xml:space="preserve">
+    <value>Belirtilmedi</value>
+  </data>
+  <data name="None_Specified.Text" xml:space="preserve">
+    <value>Belirtilmemiş</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="cmdDelete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="cmdDisplay.Text" xml:space="preserve">
+    <value>Göster</value>
+  </data>
+  <data name="cmdGo.Text" xml:space="preserve">
+    <value>Git</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>Yeni Dosya Yükle</value>
+  </data>
+  <data name="Select.Text" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="Upload.Text" xml:space="preserve">
+    <value>Yükle</value>
+  </data>
+  <data name="Add.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="All.Text" xml:space="preserve">
+    <value>Tümü</value>
+  </data>
+  <data name="Unauthorized.Text" xml:space="preserve">
+    <value>Yetkisiz</value>
+  </data>
+  <data name="Today.Text" xml:space="preserve">
+    <value>Bugün</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="cmdReturn.Text" xml:space="preserve">
+    <value>Geri Dön</value>
+  </data>
+  <data name="cmdStop.Text" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="cmdDownLoad.Text" xml:space="preserve">
+    <value>İndir</value>
+  </data>
+  <data name="Seconds.Text" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="Second.Text" xml:space="preserve">
+    <value>Saniye</value>
+  </data>
+  <data name="Minutes.Text" xml:space="preserve">
+    <value>Dakikalar</value>
+  </data>
+  <data name="Minute.Text" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="Hours.Text" xml:space="preserve">
+    <value>Saatler</value>
+  </data>
+  <data name="Hour.Text" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="Days.Text" xml:space="preserve">
+    <value>Günler</value>
+  </data>
+  <data name="Day.Text" xml:space="preserve">
+    <value>Gün</value>
+  </data>
+  <data name="DeleteItems.Text" xml:space="preserve">
+    <value>Bu öğeleri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="cmdEdit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="Unknown.Text" xml:space="preserve">
+    <value>Bilinmeyen</value>
+  </data>
+  <data name="Weeks.Text" xml:space="preserve">
+    <value>Haftalar</value>
+  </data>
+  <data name="Week.Text" xml:space="preserve">
+    <value>Hafta</value>
+  </data>
+  <data name="Months.Text" xml:space="preserve">
+    <value>Aylar</value>
+  </data>
+  <data name="Month.Text" xml:space="preserve">
+    <value>Ay</value>
+  </data>
+  <data name="Years.Text" xml:space="preserve">
+    <value>Yıllar</value>
+  </data>
+  <data name="Year.Text" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="New.Text" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="DeleteModule.Confirm" xml:space="preserve">
+    <value>Bu modülü silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="EXCEPTION.Log" xml:space="preserve">
+    <value>İSTİSNÂ: {0}</value>
+  </data>
+  <data name="PURGE.Log" xml:space="preserve">
+    <value>Site Günlüğü Başarıyla Temizlendi</value>
+  </data>
+  <data name="SkinObjects.Text" xml:space="preserve">
+    <value>[Cilt Nesneleri]</value>
+  </data>
+  <data name="SkinObjectsDescription.Text" xml:space="preserve">
+    <value>Cilt Nesneleri, Tema dosyalarınıza özel işlevsellik sağlamak için kullanılan Kullanıcı Kontrolleridir.</value>
+  </data>
+  <data name="ReadError.Text" xml:space="preserve">
+    <value>Tüm veriler okunamadı: {0}/{1}</value>
+  </data>
+  <data name="Help.Text" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="PURGEUSERS.Log" xml:space="preserve">
+    <value>Çevrimiçi Kullanıcılar Başarıyla Temizlendi</value>
+  </data>
+  <data name="ErrorOccurred.Text" xml:space="preserve">
+    <value>Bir hata oluştu.</value>
+  </data>
+  <data name="ModuleUnavailable.Text" xml:space="preserve">
+    <value>Hata: {0} şu anda kullanılamıyor.</value>
+  </data>
+  <data name="PURGEDSCHEDULE.Log" xml:space="preserve">
+    <value>Temizlenmiş Program Geçmişi</value>
+  </data>
+  <data name="TESTCOMPLETE.Log" xml:space="preserve">
+    <value>Test tamamlandı. {0} milisaniye beklenildi.</value>
+  </data>
+  <data name="UserEmailExists.Text" xml:space="preserve">
+    <value>Bir kullanıcı zaten bu e-posta adresini kullanıyor. Lütfen farklı bir e-posta adresiyle kayıt olun veya mevcut e-posta adresinizi kullanarak bir şifre hatırlatıcı alın.</value>
+  </data>
+  <data name="InvalidAnswer.Text" xml:space="preserve">
+    <value>Belirtilen cevap geçersiz. Lütfen soruya geçerli bir cevap belirtin.</value>
+  </data>
+  <data name="InvalidEmail.Text" xml:space="preserve">
+    <value>Belirtilen e-posta adresi geçersiz. Lütfen geçerli bir e-posta adresi belirtin.</value>
+  </data>
+  <data name="InvalidPassword.Text" xml:space="preserve">
+    <value>Belirtilen şifre geçersiz. Lütfen geçerli bir şifre belirtin. Şifreler en az [PasswordLength] karakter uzunluğunda olmalı ve en az [NoneAlphabet] alfasayısal olmayan karakter içermeli ve kullanıcı adıyla eşleşmemelidir.</value>
+  </data>
+  <data name="BannedPasswordUsed.Text" xml:space="preserve">
+    <value>İstenen şifre, ya kullanıcı adıyla aynıdır ya da yasaklı şifreler listesinde bulunan bir terimi kullanmaktadır.</value>
+  </data>
+  <data name="InvalidQuestion.Text" xml:space="preserve">
+    <value>Belirtilen soru geçersiz. Lütfen geçerli bir soru belirtin.</value>
+  </data>
+  <data name="InvalidUserName.Text" xml:space="preserve">
+    <value>Belirtilen kullanıcı adı geçersiz. Lütfen geçerli bir kullanıcı adı belirtin.</value>
+  </data>
+  <data name="InvalidFirstName.Text" xml:space="preserve">
+    <value>Belirtilen ilk ad geçersiz.</value>
+  </data>
+  <data name="InvalidLastName.Text" xml:space="preserve">
+    <value>Belirtilen soyadı geçersiz.</value>
+  </data>
+  <data name="UserRejected.Text" xml:space="preserve">
+    <value>Bu kullanıcı kaydı reddedildi. Daha fazla bilgi için bir Yönetici ile iletişime geçiniz.</value>
+  </data>
+  <data name="UserNameExists.Text" xml:space="preserve">
+    <value>Belirtilen kullanıcı adı için zaten bir kullanıcı mevcut. Lütfen farklı bir kullanıcı adı kullanarak tekrar kaydolun.</value>
+  </data>
+  <data name="RegError.Text" xml:space="preserve">
+    <value>Kayıt sırasında beklenmeyen bir hata oluştu. Daha fazla bilgi için Yönetici ile iletişime geçiniz.</value>
+  </data>
+  <data name="PaneNotFound.Error" xml:space="preserve">
+    <value>Tema için ContentPane bulunamıyor.</value>
+  </data>
+  <data name="ContractExpired.Error" xml:space="preserve">
+    <value>{0} için barındırma sözleşmesi {1} tarihinde sona erdi. Daha fazla bilgi için &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; ile iletişime geçiniz.</value>
+  </data>
+  <data name="TabAccess.Error" xml:space="preserve">
+    <value>Bu sayfayı site içinde görüntüleme erişiminiz yok.</value>
+  </data>
+  <data name="ModuleAccess.Error" xml:space="preserve">
+    <value>Bu modülü site içinde görüntüleme erişiminiz yok.</value>
+  </data>
+  <data name="CriticalError.Error" xml:space="preserve">
+    <value>Kritik bir hata oluştu. Daha fazla ayrıntı için Yönetici Günlüklerini kontrol ediniz.</value>
+  </data>
+  <data name="ModuleLoad.Error" xml:space="preserve">
+    <value>Modül yüklenirken ele alınmayan bir hata oluştu.</value>
+  </data>
+  <data name="ModuleAdd.Error" xml:space="preserve">
+    <value>Modül eklenirken işlenmeyen hata.</value>
+  </data>
+  <data name="ContainerLoad.Error" xml:space="preserve">
+    <value>Konteyner yüklenemedi: {0}</value>
+  </data>
+  <data name="BeginZip.Text" xml:space="preserve">
+    <value>Zip dosyası işlemeye başla.</value>
+  </data>
+  <data name="CreateDir.Text" xml:space="preserve">
+    <value>Dizin oluşturuluyor</value>
+  </data>
+  <data name="WriteFile.Text" xml:space="preserve">
+    <value>Dosya yazılıyor</value>
+  </data>
+  <data name="FileError.Text" xml:space="preserve">
+    <value>Dosya işlenirken hata oluştu</value>
+  </data>
+  <data name="FileAccess.Error" xml:space="preserve">
+    <value>Bu dosyaya erişmek için yeterli izniniz yok.</value>
+  </data>
+  <data name="EndZip.Text" xml:space="preserve">
+    <value>Zip dosyası işlemi sona erdi</value>
+  </data>
+  <data name="FileRestricted.Text" xml:space="preserve">
+    <value>{0} kısıtlı bir dosya türüdür. Geçerli dosya türleri şunları içerir (*.{1}). Lütfen desteklenmeyen bir dosya türünü yüklemek için barındırma sağlayıcınıza başvurun.</value>
+  </data>
+  <data name="Skins.Text" xml:space="preserve">
+    <value>Temalar</value>
+  </data>
+  <data name="Containers.Text" xml:space="preserve">
+    <value>Konteynerler</value>
+  </data>
+  <data name="StartProcessor.Text" xml:space="preserve">
+    <value>Tema/konteyner dosyaları için işlemciyi başlat</value>
+  </data>
+  <data name="PackageLoad.Text" xml:space="preserve">
+    <value>Paket düzeyi öznitelik dosyası yüklendi</value>
+  </data>
+  <data name="PackageLoad.Error" xml:space="preserve">
+    <value>Paket düzeyi öznitelik dosyası yüklenirken hata oluştu: ({0})</value>
+  </data>
+  <data name="DuplicateSkinObject.Error" xml:space="preserve">
+    <value>Token {0} için yinelenen cilt nesnesi atılıyor</value>
+  </data>
+  <data name="DuplicateSkinObject.Detail" xml:space="preserve">
+    <value>Bu belirteci referans alan herhangi bir tema, tema kontrolünü ilk kaydedilen {0} kullanacak, yinelenen tarafından belirtilenden ({1}) değil. Tema yanlış şekilde oluşturulabilir.</value>
+  </data>
+  <data name="LoadingSkinToken.Text" xml:space="preserve">
+    <value>Token {0} için cilt nesnesi yükleniyor</value>
+  </data>
+  <data name="BeginSkinFile.Text" xml:space="preserve">
+    <value>Dosya işlemeye başlanıyor</value>
+  </data>
+  <data name="EndSkinFile.Text" xml:space="preserve">
+    <value>Dosya işleme sonlandırıldı</value>
+  </data>
+  <data name="EndSkinFiles.Text" xml:space="preserve">
+    <value>Tema/konteyner dosyalarının işlemesi sonlandırıldı</value>
+  </data>
+  <data name="FileFormat.Error" xml:space="preserve">
+    <value>Dosya biçimleme hatası</value>
+  </data>
+  <data name="FileFormat.Detail" xml:space="preserve">
+    <value>{0} bir ContentPane içermiyor.</value>
+  </data>
+  <data name="SkinFileLoad.Text" xml:space="preserve">
+    <value>Öznitelik dosyası yükleniyor</value>
+  </data>
+  <data name="SkinFileLoad.Error" xml:space="preserve">
+    <value>Öznitelik dosyası yüklenirken hata oluştu</value>
+  </data>
+  <data name="FileWrite.Text" xml:space="preserve">
+    <value>Dosya yazılıyor</value>
+  </data>
+  <data name="ControlDirective.Text" xml:space="preserve">
+    <value>Biçimlendirme kontrol direktifi</value>
+  </data>
+  <data name="ControlRegister.Text" xml:space="preserve">
+    <value>Biçimlendirme kayıt direktifi</value>
+  </data>
+  <data name="Substituting.Text" xml:space="preserve">
+    <value>Yerine koyma</value>
+  </data>
+  <data name="Substituting.Detail" xml:space="preserve">
+    <value>{0}&lt;br&gt;ile: {1}</value>
+  </data>
+  <data name="ProcessToken.Text" xml:space="preserve">
+    <value>İşlem belirteci</value>
+  </data>
+  <data name="SkinToken.Text" xml:space="preserve">
+    <value>Belirteç cilt nesnesidir</value>
+  </data>
+  <data name="PaneToken.Text" xml:space="preserve">
+    <value>Belirteç içerik bölmesidir</value>
+  </data>
+  <data name="TokenFound.Text" xml:space="preserve">
+    <value>Belirteç öznitelikler dosyasında bulundu</value>
+  </data>
+  <data name="TokenFormat.Text" xml:space="preserve">
+    <value>Belirteç özniteliği biçimlendiriliyor</value>
+  </data>
+  <data name="TokenNotFoundInFile.Text" xml:space="preserve">
+    <value>Belirteç öznitelikler dosyasında bulunamadı</value>
+  </data>
+  <data name="ControlFormat.Text" xml:space="preserve">
+    <value>Biçimlendirme kontrol ifadesi</value>
+  </data>
+  <data name="TokenNotFound.Text" xml:space="preserve">
+    <value>Belirteç bulunamadı</value>
+  </data>
+  <data name="ProcessObject.Text" xml:space="preserve">
+    <value>Gömülü nesne işleniyor</value>
+  </data>
+  <data name="SkinObject.Text" xml:space="preserve">
+    <value>Gömülü nesne cilt nesnesidir</value>
+  </data>
+  <data name="PaneObject.Text" xml:space="preserve">
+    <value>Gömülü nesne içerik bölmesidir</value>
+  </data>
+  <data name="ObjectNotFound.Text" xml:space="preserve">
+    <value>Gömülü nesne bulunamadı</value>
+  </data>
+  <data name="cmdNext.Text" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="cmdBack.Text" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="cmdFinish.Text" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="cmdBack.Help" xml:space="preserve">
+    <value>Önceki sayfaya gitmek için tıklayın</value>
+  </data>
+  <data name="cmdNext.Help" xml:space="preserve">
+    <value>Sonraki sayfaya gitmek için tıklayın</value>
+  </data>
+  <data name="Left.Text" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="Right.Text" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="Center.Text" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="Maximized.Text" xml:space="preserve">
+    <value>Tam ekran</value>
+  </data>
+  <data name="Minimized.Text" xml:space="preserve">
+    <value>Küçültüldü</value>
+  </data>
+  <data name="None.Text" xml:space="preserve">
+    <value>Hiçbiri</value>
+  </data>
+  <data name="Pages.Text" xml:space="preserve">
+    <value>Sayfa {0} / {1}</value>
+  </data>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="cmdHelp.Help" xml:space="preserve">
+    <value>Bu sayfa için Yardımı göstermek için tıklayın.</value>
+  </data>
+  <data name="DNN_Reading.Text" xml:space="preserve">
+    <value>Kurulum Manifest dosyası okunuyor</value>
+  </data>
+  <data name="DNN_Success.Text" xml:space="preserve">
+    <value>Manifest dosyası başarıyla tamamlandı.</value>
+  </data>
+  <data name="DNN_Valid.Text" xml:space="preserve">
+    <value>DNN dosyası geçerli {0} formatında.</value>
+  </data>
+  <data name="DNN_ValidSkinObject.Text" xml:space="preserve">
+    <value>DNN dosyası geçerli 2.0 Tema Nesnesi formatında.</value>
+  </data>
+  <data name="EXCEPTION.Text" xml:space="preserve">
+    <value>Özel Durum</value>
+  </data>
+  <data name="EXCEPTION_DesktopSrc.Text" xml:space="preserve">
+    <value>Bir modül kontrolü, bir Desktopsrc değerine sahip olmalı, iptal ediliyor</value>
+  </data>
+  <data name="EXCEPTION_FileLoad.Text" xml:space="preserve">
+    <value>Dosya yüklemesi başarısız oldu, iptal ediliyor</value>
+  </data>
+  <data name="EXCEPTION_FileName.Text" xml:space="preserve">
+    <value>Bir dosyanın bir ad değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_FileRead.Text" xml:space="preserve">
+    <value>Tüm veriler okunamadı:</value>
+  </data>
+  <data name="EXCEPTION_FolderDesc.Text" xml:space="preserve">
+    <value>Bir klasörün bir açıklama değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_FolderName.Text" xml:space="preserve">
+    <value>Bir klasörün bir ad değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_FolderProvider.Text" xml:space="preserve">
+    <value>Bir klasörün bir sağlayıcı türü değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_FolderVersion.Text" xml:space="preserve">
+    <value>Bir klasörün bir sürüm değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_Format.Text" xml:space="preserve">
+    <value>Geçersiz Dnn formatı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_LoadFailed.Text" xml:space="preserve">
+    <value>Dnn yükleme başarısız, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_MissingDnn.Text" xml:space="preserve">
+    <value>.dnn dosyası bulunamadı ???</value>
+  </data>
+  <data name="EXCEPTION_MissingResource.Text" xml:space="preserve">
+    <value>Dnn'de belirtilen ResourceFile zip dosyasında bulunamadı:</value>
+  </data>
+  <data name="EXCEPTION_MultipleDnn.Text" xml:space="preserve">
+    <value>Zip dosyasında birden fazla .dnn dosyası bulundu:</value>
+  </data>
+  <data name="EXCEPTION_Src.Text" xml:space="preserve">
+    <value>Bir modül kontrolünün bir src değeri olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="EXCEPTION_Type.Text" xml:space="preserve">
+    <value>Bir modül kontrolü bir tür değerine sahip olmalı, işlem durduruluyor</value>
+  </data>
+  <data name="FILE_Created.Text" xml:space="preserve">
+    <value>{0} oluşturuldu</value>
+  </data>
+  <data name="FILE_Found.Text" xml:space="preserve">
+    <value>{1} için geçerli yol bulundu ({0})</value>
+  </data>
+  <data name="FILE_Loading.Text" xml:space="preserve">
+    <value>Yükleniyor</value>
+  </data>
+  <data name="FILE_NotFound.Text" xml:space="preserve">
+    <value>Dnn'de belirtilen dosya zip dosyasında bulunamadı:</value>
+  </data>
+  <data name="FILE_ReadSuccess.Text" xml:space="preserve">
+    <value>{0} dosyası başarıyla okundu</value>
+  </data>
+  <data name="FILES_Created.Text" xml:space="preserve">
+    <value>Dosyalar oluşturuldu</value>
+  </data>
+  <data name="FILES_CreatedResources.Text" xml:space="preserve">
+    <value>Kaynak Dosyaları oluşturuldu</value>
+  </data>
+  <data name="FILES_Creating.Text" xml:space="preserve">
+    <value>Dosyalar oluşturuluyor</value>
+  </data>
+  <data name="FILES_Expanding.Text" xml:space="preserve">
+    <value>Kaynak dosya genişletiliyor</value>
+  </data>
+  <data name="FILES_Loading.Text" xml:space="preserve">
+    <value>Dosyaların bilgileri yükleniyor</value>
+  </data>
+  <data name="FILES_Reading.Text" xml:space="preserve">
+    <value>Dosyalar okunuyor</value>
+  </data>
+  <data name="FILES_ReadingEnd.Text" xml:space="preserve">
+    <value>Dosyaları okuma tamamlandı.</value>
+  </data>
+  <data name="INSTALL_Start.Text" xml:space="preserve">
+    <value>Kurulum başlatılıyor</value>
+  </data>
+  <data name="INSTALL_Success.Text" xml:space="preserve">
+    <value>Kurulum başarılı.</value>
+  </data>
+  <data name="REGISTER_Controls.Text" xml:space="preserve">
+    <value>Kontroller kaydediliyor</value>
+  </data>
+  <data name="REGISTER_Definition.Text" xml:space="preserve">
+    <value>Tanımlamalar kaydediliyor</value>
+  </data>
+  <data name="REGISTER_End.Text" xml:space="preserve">
+    <value>Kayıt işlemi tamamlandı</value>
+  </data>
+  <data name="REGISTER_Module.Text" xml:space="preserve">
+    <value>Masaüstü Modülü kaydediliyor</value>
+  </data>
+  <data name="SQL_Begin.Text" xml:space="preserve">
+    <value>Sql işlemi başlatılıyor</value>
+  </data>
+  <data name="SQL_BeginFile.Text" xml:space="preserve">
+    <value>Sql işlemi başlatılıyor: {0} dosya</value>
+  </data>
+  <data name="SQL_End.Text" xml:space="preserve">
+    <value>Sql işlemi tamamlandı</value>
+  </data>
+  <data name="SQL_EndFile.Text" xml:space="preserve">
+    <value>Sql işlemi tamamlandı: {0} dosya</value>
+  </data>
+  <data name="SQL_Exceptions.Text" xml:space="preserve">
+    <value>Sql İşlemi aşağıdaki istisnalara neden oldu: {0}{1}</value>
+  </data>
+  <data name="SQL_Executing.Text" xml:space="preserve">
+    <value>Yürütülüyor</value>
+  </data>
+  <data name="SQL_UnknownFile.Text" xml:space="preserve">
+    <value>Belirtilen dosya kodlaması bilinmiyor, işlem iptal ediliyor</value>
+  </data>
+  <data name="XML_Loaded.Text" xml:space="preserve">
+    <value>xml yüklendi.</value>
+  </data>
+  <data name="Folders.Text" xml:space="preserve">
+    <value>Klasörler:</value>
+  </data>
+  <data name="Files.Text" xml:space="preserve">
+    <value>Dosyalar:</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Sayfa:</value>
+  </data>
+  <data name="URL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="Home.Text" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="Maximize.Text" xml:space="preserve">
+    <value>Tam Ekran</value>
+  </data>
+  <data name="Minimize.Text" xml:space="preserve">
+    <value>Simge Durumuna Küçült</value>
+  </data>
+  <data name="EXCEPTION_DirectoryExists.Text" xml:space="preserve">
+    <value>Dizin zaten mevcut</value>
+  </data>
+  <data name="EXCEPTION.DuplicateLocale.Text" xml:space="preserve">
+    <value>Bu yerel ayar zaten tanımlı</value>
+  </data>
+  <data name="EXCEPTION.SaveLocale.Text" xml:space="preserve">
+    <value>Bir dosya işlemi başarısız oldu. Lütfen kaynak dosya izinlerini kontrol edin, böylece dosyalar düzenlenebilir.</value>
+  </data>
+  <data name="LOG.LangPack.LoadFiles" xml:space="preserve">
+    <value>{0} kaynak dosyaları yükle.</value>
+  </data>
+  <data name="LOG.LangPack.Global" xml:space="preserve">
+    <value>global</value>
+  </data>
+  <data name="LOG.LangPack.Control" xml:space="preserve">
+    <value>kontrol</value>
+  </data>
+  <data name="LOG.LangPack.Module" xml:space="preserve">
+    <value>modül</value>
+  </data>
+  <data name="LOG.LangPack.Admin" xml:space="preserve">
+    <value>yönetici</value>
+  </data>
+  <data name="LOG.LangPack.ArchiveFiles" xml:space="preserve">
+    <value>Kaynak paket arşiv dosyası oluştur.</value>
+  </data>
+  <data name="LOG.LangPack.LoadFromFolder" xml:space="preserve">
+    <value>Klasörden kaynak dosyaları yükleniyor: {0}</value>
+  </data>
+  <data name="LOG.LangPack.LoadFileName" xml:space="preserve">
+    <value>Kaynak dosyası yükleniyor: {0}</value>
+  </data>
+  <data name="LOG.LangPack.SerializeManifest" xml:space="preserve">
+    <value>Manifest dosyası başarıyla oluşturuldu.</value>
+  </data>
+  <data name="LOG.LangPack.SavedFile" xml:space="preserve">
+    <value>Kaynak Dosyası {0} kaynak pakete kaydedildi.</value>
+  </data>
+  <data name="LOG.LangPack.CreateArchive" xml:space="preserve">
+    <value>Dosyalar kaynak pakete ekleniyor: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.SavingFile" xml:space="preserve">
+    <value>Bir dosyanın kaynak pakete kaydedilmesinde bir hata oluştu: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.CreatingFile" xml:space="preserve">
+    <value>Kaynak paket dosyası oluşturulurken bir hata oluştu: {0}</value>
+  </data>
+  <data name="LOG.LangPack.ERROR.ManifestFile" xml:space="preserve">
+    <value>Manifest dosyası oluşturulurken bir hata oluştu: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestZip" xml:space="preserve">
+    <value>Zip dosyasından Dil Paketi manifest dosyası okunurken bir hata oluştu. Hata: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.ManifestLoad" xml:space="preserve">
+    <value>Dil Paketi manifest dosyası yüklenirken bir hata oluştu. Hata: {0}</value>
+  </data>
+  <data name="EXCEPTION.LangPack.FileMissing" xml:space="preserve">
+    <value>Dosya {0}, Dil Paketi manifest dosyasında eksik.</value>
+  </data>
+  <data name="EXCEPTION.LangPack.Install" xml:space="preserve">
+    <value>Bir Dil Paketi kaynak dosyası yüklenirken bir hata oluştu. Hata: {0}</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadManifest" xml:space="preserve">
+    <value>Manifest dosyası yükleniyor.</value>
+  </data>
+  <data name="LOG.LangPack.Job.DeserializeManifest" xml:space="preserve">
+    <value>Manifest dosyası serileştiriliyor.</value>
+  </data>
+  <data name="LOG.LangPack.Job.LoadFiles" xml:space="preserve">
+    <value>Dil dosyaları açılıyor</value>
+  </data>
+  <data name="LOG.LangPack.Job.SaveFiles" xml:space="preserve">
+    <value>Dil dosyaları içe aktarılıyor</value>
+  </data>
+  <data name="LOG.LangPack.Job.CreateLocale" xml:space="preserve">
+    <value>Yerel ayar oluşturuluyor/güncelleniyor</value>
+  </data>
+  <data name="LOG.LangPackReader.LoadFiles" xml:space="preserve">
+    <value>Dil dosyası açılıyor: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.UnzipFiles" xml:space="preserve">
+    <value>Dosya içe aktar: {0}</value>
+  </data>
+  <data name="LOG.LangPackReader.CreateLocale" xml:space="preserve">
+    <value>Yerelleştirme Oluşturuluyor: {0}</value>
+  </data>
+  <data name="Wizard.Success.SuccessTitle" xml:space="preserve">
+    <value>Tebrikler:</value>
+  </data>
+  <data name="Wizard.Success.SuccessDetail" xml:space="preserve">
+    <value>&lt;p&gt;Tebrikler. Sihirbaz başarıyla tamamlandı.&lt;/p&gt;</value>
+  </data>
+  <data name="Wizard.Success.FailureTitle" xml:space="preserve">
+    <value>Sihirbaz Başarısız Oldu:</value>
+  </data>
+  <data name="Wizard.Success.FailureDetail" xml:space="preserve">
+    <value>&lt;p&gt;Maalesef bu Sihirbazda bir hata oluştu. Lütfen aşağıdaki mesajı gözden geçirin ve sağlayıcınızla kontrol edin.&lt;/p&gt;</value>
+  </data>
+  <data name="LOG.PAWriter.CreateManifest" xml:space="preserve">
+    <value>Manifest dosyası oluşturuluyor. {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateArchive" xml:space="preserve">
+    <value>Dosyalar Modül Paketine Ekleniyor: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.SavedFile" xml:space="preserve">
+    <value>Dosya {0} Modül Paketine kaydedildi.</value>
+  </data>
+  <data name="LOG.PAWriter.ERROR.SavingFile" xml:space="preserve">
+    <value>Bir dosyanın Modül Paketine kaydedilmesinde bir hata oluştu: {0}</value>
+  </data>
+  <data name="LOG.PAWriter.CreateZipFile" xml:space="preserve">
+    <value>Modül Paketi Oluşturuluyor: {0}</value>
+  </data>
+  <data name="ModuleExpired.Text" xml:space="preserve">
+    <value>Modül Süresi Doldu - {0}</value>
+  </data>
+  <data name="LOG.PALogger.Info" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="LOG.PALogger.Warning" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="LOG.PALogger.Failure" xml:space="preserve">
+    <value>Başarısızlık</value>
+  </data>
+  <data name="LOG.PALogger.StartJob" xml:space="preserve">
+    <value>İşlemi Başlat</value>
+  </data>
+  <data name="LOG.PALogger.EndJob" xml:space="preserve">
+    <value>İşlemi Sonlandır</value>
+  </data>
+  <data name="AllUsers.Text" xml:space="preserve">
+    <value>Herkes</value>
+  </data>
+  <data name="Superuser.Text" xml:space="preserve">
+    <value>Süper Kullanıcı</value>
+  </data>
+  <data name="UnauthenticatedUsers.Text" xml:space="preserve">
+    <value>Kimlik Doğrulanmamış Kullanıcılar</value>
+  </data>
+  <data name="RestrictedFileType.Text" xml:space="preserve">
+    <value>Dosya {0} kısıtlanmış bir dosya türüdür. Geçerli dosya türleri şunları içerir ( {1} ). Desteklenmeyen bir dosya türü yüklemek için barındırma sağlayıcınıza başvurun.</value>
+  </data>
+  <data name="SaveFileError.Text" xml:space="preserve">
+    <value>Dosya {0} kaydedilmeye çalışılırken bir hata oluştu. Sunucuda uygun güvenlik ayarlarının etkinleştirildiğinden emin olmak için barındırma sağlayıcınıza başvurun.</value>
+  </data>
+  <data name="DiskSpaceExceeded.Text" xml:space="preserve">
+    <value>Dosya {0}, mevcut disk alanı miktarını aşıyor. Site disk alanınızı artırmak için barındırma sağlayıcınıza başvurun.</value>
+  </data>
+  <data name="WordCleanButton.Text" xml:space="preserve">
+    <value>Temiz MS Word HTML</value>
+  </data>
+  <data name="INSTALL_OlderVersion.Text" xml:space="preserve">
+    <value>Yükleme iptal edildi - Yüklenmeye çalışılan modül, zaten barındırma uygulamanızda yüklü olan sürümden daha eski.</value>
+  </data>
+  <data name="INSTALL_Compatibility.Text" xml:space="preserve">
+    <value>Yükleme iptal edildi - Yüklenmekte olan modül bu DNN sürümüyle uyumlu değil. Sürüm {0} için bir yükseltme gereklidir.</value>
+  </data>
+  <data name="INSTALL_Dependencies.Text" xml:space="preserve">
+    <value>Yükleme iptal edildi - Yüklenmekte olan modül, ortamınızda mevcut olmayan ek bileşenler gerektiriyor.</value>
+  </data>
+  <data name="INSTALL_Permissions.Text" xml:space="preserve">
+    <value>Yükleme iptal edildi - Yüklenmekte olan paket, ortamınızda şu anda mevcut olan izinlerden daha fazlasını gerektiriyor. Gerekli izin.</value>
+  </data>
+  <data name="First.Text" xml:space="preserve">
+    <value>İlk</value>
+  </data>
+  <data name="Next.Text" xml:space="preserve">
+    <value>Sonraki</value>
+  </data>
+  <data name="Previous.Text" xml:space="preserve">
+    <value>Önceki</value>
+  </data>
+  <data name="Last.Text" xml:space="preserve">
+    <value>Son</value>
+  </data>
+  <data name="Recordsperpage.Text" xml:space="preserve">
+    <value>Sayfa başına kayıtlar</value>
+  </data>
+  <data name="Recordsperpage.Help" xml:space="preserve">
+    <value>Bir sayfada görüntülenecek maksimum kayıt sayısını seçin.</value>
+  </data>
+  <data name="LOG.LangPack.Provider" xml:space="preserve">
+    <value>sağlayıcı</value>
+  </data>
+  <data name="InvalidFileName.Text" xml:space="preserve">
+    <value>Geçersiz Dosya Adı - Dosya adı ' içeremez</value>
+  </data>
+  <data name="AllRoles.Text" xml:space="preserve">
+    <value>&lt; Tüm Roller &gt;</value>
+  </data>
+  <data name="GlobalRoles.Text" xml:space="preserve">
+    <value>&lt; Global Roller &gt;</value>
+  </data>
+  <data name="Cancel.Action" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="InsertSmileyButton.Text" xml:space="preserve">
+    <value>Gülücük Ekle</value>
+  </data>
+  <data name="RoleGroupFilter.Text" xml:space="preserve">
+    <value>Gruba Göre Filtrele:</value>
+  </data>
+  <data name="DeleteItems.Confirm" xml:space="preserve">
+    <value>Bu öğeleri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="RemoveItems.Confirm" xml:space="preserve">
+    <value>Bu öğeleri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="PasswordMismatch.Text" xml:space="preserve">
+    <value>Parolalar eşleşmiyor.</value>
+  </data>
+  <data name="OnLine.Text" xml:space="preserve">
+    <value>Çevrimiçi</value>
+  </data>
+  <data name="Deleted.Text" xml:space="preserve">
+    <value>Silinmiş</value>
+  </data>
+  <data name="LOG.LangPackReader.ModuleWarning" xml:space="preserve">
+    <value>Kaynak dosyası {0}, modül {1} yüklü olmadığından kaydedilmedi.</value>
+  </data>
+  <data name="AdminOnly.Text" xml:space="preserve">
+    <value>Yalnızca Yönetici</value>
+  </data>
+  <data name="MembersOnly.Text" xml:space="preserve">
+    <value>Yalnızca Üyeler</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Visibility.Text" xml:space="preserve">
+    <value>Görünürlük:</value>
+  </data>
+  <data name="CreateProfileDefinitions.Error" xml:space="preserve">
+    <value>Profil Tanımları oluşturulurken hata oluştu.</value>
+  </data>
+  <data name="CreatePortal.Error" xml:space="preserve">
+    <value>Site oluşturulurken hata oluştu.</value>
+  </data>
+  <data name="CreatePortalHomeFolderExists.Error" xml:space="preserve">
+    <value>Portal klasörü {0} zaten kullanımda.</value>
+  </data>
+  <data name="CreateAdminUser.Error" xml:space="preserve">
+    <value>Yönetici kullanıcı hesabı oluşturulurken hata oluştu.</value>
+  </data>
+  <data name="DeleteUploadFolder.Error" xml:space="preserve">
+    <value>Önceki yükleme klasörü silinirken hata oluştu.</value>
+  </data>
+  <data name="ChildPortal.Error" xml:space="preserve">
+    <value>Alt site yapılandırılırken hata oluştu.</value>
+  </data>
+  <data name="PortalTemplate.Error" xml:space="preserve">
+    <value>Site şablonu ayrıştırılırken hata oluştu.</value>
+  </data>
+  <data name="AdminTemplate.Error" xml:space="preserve">
+    <value>Yönetici şablonu ayrıştırılırken hata oluştu.</value>
+  </data>
+  <data name="FilePermission.Error" xml:space="preserve">
+    <value>İstenen dosyayı görüntüleme izniniz yok.</value>
+  </data>
+  <data name="ModuleLoadWarning.Error" xml:space="preserve">
+    <value>Modül Yükleme Uyarısı</value>
+  </data>
+  <data name="ModuleLoadWarning.Text" xml:space="preserve">
+    <value>Bu sayfadaki modüllerden biri veya daha fazlası yüklenemedi. Bu geçici olabilir. Lütfen sayfayı yenileyin (çoğu tarayıcıda F5'e tıklayın). Sorun devam ederse, lütfen &lt;a href="mailto:{0}"&gt;Site Yöneticisi&lt;/a&gt;'ne bildirin.</value>
+  </data>
+  <data name="FTB_FolderCreated.Text" xml:space="preserve">
+    <value>Klasör {0} başarıyla oluşturuldu.</value>
+  </data>
+  <data name="FTB_FolderCreate.Error" xml:space="preserve">
+    <value>Klasör oluşturulurken bilinmeyen bir hata oluştu.</value>
+  </data>
+  <data name="FTB_FolderCreate.Permission" xml:space="preserve">
+    <value>Klasör oluşturma izniniz yok.</value>
+  </data>
+  <data name="FTB_FolderDeleted.Text" xml:space="preserve">
+    <value>Klasör {0} başarıyla silindi.</value>
+  </data>
+  <data name="FTB_FolderDelete.Error" xml:space="preserve">
+    <value>Klasör silinirken bilinmeyen bir hata oluştu.</value>
+  </data>
+  <data name="FTB_FolderDelete.Permission" xml:space="preserve">
+    <value>Klasör silme izniniz yok.</value>
+  </data>
+  <data name="FTB_ImageDeleted.Text" xml:space="preserve">
+    <value>Resim {0} başarıyla silindi.</value>
+  </data>
+  <data name="FTB_ImageDelete.Error" xml:space="preserve">
+    <value>Resim silinirken bilinmeyen bir hata oluştu.</value>
+  </data>
+  <data name="FTB_ImageDelete.Permission" xml:space="preserve">
+    <value>Resim silme izniniz yok.</value>
+  </data>
+  <data name="FTB_ImageUploaded.Text" xml:space="preserve">
+    <value>Resim {0} başarıyla yüklendi.</value>
+  </data>
+  <data name="FTB_ImageUpload.Error" xml:space="preserve">
+    <value>Resim yüklenirken bilinmeyen hata oluştu.</value>
+  </data>
+  <data name="FTB_ImageUploadNoFile.Text" xml:space="preserve">
+    <value>Dosya yüklenmedi.</value>
+  </data>
+  <data name="FTB_ImageUpload.Permission" xml:space="preserve">
+    <value>Resim yükleme izniniz yok.</value>
+  </data>
+  <data name="LastPortal.Text" xml:space="preserve">
+    <value>Veritabanınızdaki son siteyi silemezsiniz.</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Kullanıcı adı:</value>
+  </data>
+  <data name="DisplayName.Text" xml:space="preserve">
+    <value>Görüntülenen Ad:</value>
+  </data>
+  <data name="PageDisabled.Header" xml:space="preserve">
+    <value>Sayfa Devre Dışı</value>
+  </data>
+  <data name="PageDisabled.Text" xml:space="preserve">
+    <value>Bu sayfa devre dışı bırakılmıştır ve yalnızca sayfa için Düzenleme İzni olan kullanıcılar tarafından görülebilir.</value>
+  </data>
+  <data name="InvalidPasswordAnswer.Text" xml:space="preserve">
+    <value>Şifre Yanıtı sağlanmalıdır.</value>
+  </data>
+  <data name="InvalidPasswordQuestion.Text" xml:space="preserve">
+    <value>Şifre Sorusu sağlanmalıdır.</value>
+  </data>
+  <data name="PasswordChanged.Text" xml:space="preserve">
+    <value>Şifre değiştirildi.</value>
+  </data>
+  <data name="PasswordInvalid.Text" xml:space="preserve">
+    <value>Geçerli bir şifre girmelisiniz. Şifre gereksinimlerini bilmiyorsanız, Lütfen Site Yöneticisi ile iletişime geçin.</value>
+  </data>
+  <data name="PasswordMailError.Text" xml:space="preserve">
+    <value>Şifre sıfırlandı, ancak e-posta hatırlatma mesajı gönderilirken bir hata oluştu.</value>
+  </data>
+  <data name="PasswordMissing.Text" xml:space="preserve">
+    <value>Şifreyi değiştirmek için mevcut şifrenizi girmelisiniz.</value>
+  </data>
+  <data name="PasswordNotDifferent.Text" xml:space="preserve">
+    <value>Yeni şifre eski şifre ile aynı. Lütfen farklı bir şifre girin.</value>
+  </data>
+  <data name="PasswordResetFailed.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Lütfen daha önce kullanmadığınız ve site şifre karmaşıklık gereksinimlerini karşılayacak kadar uzun ve karmaşık bir şifre girin.</value>
+  </data>
+  <data name="PasswordInadequate.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Lütfen site şifre karmaşıklık gereksinimlerini karşılayacak kadar uzun ve karmaşık bir şifre girin.</value>
+  </data>
+  <data name="PasswordBanned.Text" xml:space="preserve">
+    <value>Yeni şifreniz, yasaklandığı veya kullanıcı adınızla aynı olduğu için kabul edilmedi.</value>
+  </data>
+  <data name="PasswordResetFailed_UserUndefined.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Lütfen daha önce kullanılan bir şifreyle eşleşmeyen bir şifre seçin ve kullanıcı adının doğru olduğundan emin olun.</value>
+  </data>
+  <data name="PasswordResetFailed_ResetLinkExpired.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Şifre sıfırlama bağlantısı süresi dolmuş ve artık geçerli değil.</value>
+  </data>
+  <data name="PasswordResetFailed_PasswordInHistory.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Lütfen daha önce kullanılmamış bir şifre seçin.</value>
+  </data>
+  <data name="PasswordResetFailed_WrongAnswer.Text" xml:space="preserve">
+    <value>Güvenlik nedenleriyle yeni şifreniz kabul edilmedi. Lütfen doğru kullanıcı adı ve yanıtın girildiğinden emin olun.</value>
+  </data>
+  <data name="PrivateMembership.Text" xml:space="preserve">
+    <value>&lt;strong&gt;*Not:&lt;/strong&gt; Bu siteye üyelik özel bir niteliktedir. Hesap bilgileriniz gönderildikten sonra, Site Yöneticisi bilgilendirilecek ve başvurunuz bir tarama prosedürüne tabi tutulacaktır. Başvurunuz onaylandığında, siteye erişebileceğinize dair bildirim alacaksınız.</value>
+  </data>
+  <data name="PublicMembership.Text" xml:space="preserve">
+    <value>&lt;strong&gt;*Not:&lt;/strong&gt; Bu siteye üyelik genel niteliktedir. Hesap bilgileriniz gönderildikten sonra, siteye hemen erişim sağlanacaktır.</value>
+  </data>
+  <data name="Register.Text" xml:space="preserve">
+    <value>Kullanıcı Kaydı</value>
+  </data>
+  <data name="Required.Text" xml:space="preserve">
+    <value>Kırmızı bir yıldızla işaretlenmiş tüm alanlar zorunludur.</value>
+  </data>
+  <data name="VerifiedMembership.Text" xml:space="preserve">
+    <value>&lt;strong&gt;*Not:&lt;/strong&gt; Bu web sitesine üyelik doğrulanmıştır. Hesap bilgileriniz gönderildikten sonra, hesabınızı doğrulamak için kullanabileceğiniz bir bağlantı içeren bir e-posta alacaksınız.</value>
+  </data>
+  <data name="Captcha.Help" xml:space="preserve">
+    <value>Güvenlik kodunu girin.</value>
+  </data>
+  <data name="Captcha.Text" xml:space="preserve">
+    <value>Güvenlik Kodu</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Şifre:</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Kullanıcı Adı:</value>
+  </data>
+  <data name="CaptchaText.Text" xml:space="preserve">
+    <value>Yukarıdaki kodu aşağıdaki kutuya girin.</value>
+  </data>
+  <data name="InvalidCaptcha.Text" xml:space="preserve">
+    <value>Güvenlik Kodu Yanlış</value>
+  </data>
+  <data name="CaptchaAlt.Text" xml:space="preserve">
+    <value>CAPTCHA resmi</value>
+  </data>
+  <data name="PrivateConfirmationMessage.Text" xml:space="preserve">
+    <value>&lt;strong&gt;Bilgileriniz içeren bir e-posta Site Yöneticisine doğrulama için gönderildi. Kaydınız onaylandığında e-posta ile bilgilendirileceksiniz. Bu arada bu siteyi gezinmeye devam edebilirsiniz.&lt;/strong&gt;</value>
+  </data>
+  <data name="DNN_ReadingComponent.Text" xml:space="preserve">
+    <value>Bileşen Manifestosu Okunuyor</value>
+  </data>
+  <data name="DNN_ReadingPackage.Text" xml:space="preserve">
+    <value>Paket Manifestosu Okunuyor</value>
+  </data>
+  <data name="AUTHENTICATION_LoginSrcMissing.Text" xml:space="preserve">
+    <value>Manifest'ten gerekli alan LoginControlSrc eksik</value>
+  </data>
+  <data name="AUTHENTICATION_ReadSuccess.Text" xml:space="preserve">
+    <value>Kimlik Doğrulama Manifestosu Başarıyla Ayrıştırıldı</value>
+  </data>
+  <data name="AUTHENTICATION_SettingsSrcMissing.Text" xml:space="preserve">
+    <value>Manifest'ten gerekli alan SettingsControlSrc eksik</value>
+  </data>
+  <data name="AUTHENTICATION_TypeMissing.Text" xml:space="preserve">
+    <value>Manifest'ten gerekli alan Tür eksik</value>
+  </data>
+  <data name="UNINSTALL_Start.Text" xml:space="preserve">
+    <value>Paket Kaldırma İşlemi Başlatılıyor</value>
+  </data>
+  <data name="UNINSTALL_Success.Text" xml:space="preserve">
+    <value>Paket Kaldırma Başarılı</value>
+  </data>
+  <data name="AUTHENTICATION_Registered.Text" xml:space="preserve">
+    <value>Kimlik doğrulama başarıyla kaydedildi - {0}</value>
+  </data>
+  <data name="FILE_Deleted.Text" xml:space="preserve">
+    <value>Silindi - {0}</value>
+  </data>
+  <data name="UNINSTALL_StartComp.Text" xml:space="preserve">
+    <value>Bileşen Kaldırma Başlatılıyor</value>
+  </data>
+  <data name="UNINSTALL_SuccessComp.Text" xml:space="preserve">
+    <value>Bileşen Kaldırma Başarılı</value>
+  </data>
+  <data name="COMPONENT_RollingBack.Text" xml:space="preserve">
+    <value>Bileşen yükleme geri alınıyor</value>
+  </data>
+  <data name="AUTHENTICATION_UnRegistered.Text" xml:space="preserve">
+    <value>Kimlik doğrulama başarıyla kaydedildi - {0}</value>
+  </data>
+  <data name="COMPONENT_Installed.Text" xml:space="preserve">
+    <value>Bileşen başarıyla yüklendi</value>
+  </data>
+  <data name="COMPONENT_RolledBack.Text" xml:space="preserve">
+    <value>Bileşen başarıyla geri alındı</value>
+  </data>
+  <data name="INSTALL_Committed.Text" xml:space="preserve">
+    <value>Yükleme tamamlandı</value>
+  </data>
+  <data name="COMPONENT_UnInstalled.Text" xml:space="preserve">
+    <value>Bileşen başarıyla kaldırıldı</value>
+  </data>
+  <data name="ASSEMBLY_Registered.Text" xml:space="preserve">
+    <value>Montaj zaten kayıtlı</value>
+  </data>
+  <data name="ASSEMBLY_UnRegistered.Text" xml:space="preserve">
+    <value>Montaj kaydı silindi</value>
+  </data>
+  <data name="INSTALL_Failed.Text" xml:space="preserve">
+    <value>Yükleme Başarısız</value>
+  </data>
+  <data name="FILE_CreateBackup.Text" xml:space="preserve">
+    <value>Önceki sürümün yedeği oluşturuluyor - {0}</value>
+  </data>
+  <data name="FILE_RestoreBackup.Text" xml:space="preserve">
+    <value>Önceki sürümün yedeği geri yüklendi - {0}</value>
+  </data>
+  <data name="ASSEMBLY_Added.Text" xml:space="preserve">
+    <value>Montaj kaydedildi</value>
+  </data>
+  <data name="ASSEMBLY_AddedBindingRedirect.Text" xml:space="preserve">
+    <value>Montaj için yönlendirme eklendi</value>
+  </data>
+  <data name="ASSEMBLY_RemovedBindingRedirect.Text" xml:space="preserve">
+    <value>Montaj için yönlendirme kaldırıldı</value>
+  </data>
+  <data name="ASSEMBLY_Updated.Text" xml:space="preserve">
+    <value>Montaj güncellendi</value>
+  </data>
+  <data name="FOLDER_DeletedBackup.Text" xml:space="preserve">
+    <value>Geçici yükleme klasörü silindi</value>
+  </data>
+  <data name="ASSEMBLY_InUse.Text" xml:space="preserve">
+    <value>Montaj başka bir paket tarafından kullanımda</value>
+  </data>
+  <data name="EXCEPTION_NameMissing.Text" xml:space="preserve">
+    <value>Ad öğesi gereklidir</value>
+  </data>
+  <data name="EXCEPTION_TypeMissing.Text" xml:space="preserve">
+    <value>Tür öğesi gereklidir</value>
+  </data>
+  <data name="EXCEPTION_VersionMissing.Text" xml:space="preserve">
+    <value>Sürüm öğesi gereklidir</value>
+  </data>
+  <data name="INSTALL_Aborted.Text" xml:space="preserve">
+    <value>Paket Kurulumu iptal edildi</value>
+  </data>
+  <data name="INSTALL_Package.Text" xml:space="preserve">
+    <value>Bağımlı bir paket yüklü değil</value>
+  </data>
+  <data name="INSTALL_Version.Text" xml:space="preserve">
+    <value>Bu paketin daha yeni bir sürümü zaten yüklü</value>
+  </data>
+  <data name="INSTALL_Namespace.Text" xml:space="preserve">
+    <value>Bağımlı bir bileşen yüklü değil</value>
+  </data>
+  <data name="XMLMERGE_Upgrade.Text" xml:space="preserve">
+    <value>{1} sürümü {2} ile güncellendi - Tarih: {3}</value>
+  </data>
+  <data name="CONFIG_Committed.Text" xml:space="preserve">
+    <value>Yapılandırma dosyası değişiklikleri kaydedildi</value>
+  </data>
+  <data name="CONFIG_RolledBack.Text" xml:space="preserve">
+    <value>Yapılandırma dosyası değişiklikleri geri alındı</value>
+  </data>
+  <data name="CONFIG_Updated.Text" xml:space="preserve">
+    <value>Yapılandırma dosyası güncellendi</value>
+  </data>
+  <data name="SQL_Committed.Text" xml:space="preserve">
+    <value>SQL betik değişiklikleri kaydedildi</value>
+  </data>
+  <data name="SQL_RolledBack.Text" xml:space="preserve">
+    <value>SQL betik değişiklikleri geri alındı</value>
+  </data>
+  <data name="SQL_BeginUnInstall.Text" xml:space="preserve">
+    <value>Sql Kaldırma işlemi başlatıldı</value>
+  </data>
+  <data name="SQL_EndUnInstall.Text" xml:space="preserve">
+    <value>Sql Kaldırma işlemi tamamlandı</value>
+  </data>
+  <data name="FOLDER_Created.Text" xml:space="preserve">
+    <value>Klasör Oluşturuldu - {0}</value>
+  </data>
+  <data name="SECURITY_Installer.Text" xml:space="preserve">
+    <value>Bu bileşeni yüklemek için erişiminiz yok.</value>
+  </data>
+  <data name="SECURITY_NotRegistered.Text" xml:space="preserve">
+    <value>Bu paket türü kayıtlı değil.</value>
+  </data>
+  <data name="EXCEPTION_InstallerCreate.Text" xml:space="preserve">
+    <value>Bileşen yükleyici oluşturulurken hata oluştu.</value>
+  </data>
+  <data name="TokenReplaceUnknownProperty.Text" xml:space="preserve">
+    <value>Bilinmeyen Özellik</value>
+  </data>
+  <data name="UserDeleteError.Text" xml:space="preserve">
+    <value>Kullanıcı silinirken hata oluştu</value>
+  </data>
+  <data name="SKIN_BeginProcessing.Text" xml:space="preserve">
+    <value>Tema dosyalarının işlenmesine başlanıyor.</value>
+  </data>
+  <data name="SKIN_EndProcessing.Text" xml:space="preserve">
+    <value>Tema dosyalarının işlenmesi sona erdi.</value>
+  </data>
+  <data name="MODULE_ControlKeyMissing.Text" xml:space="preserve">
+    <value>Modül Kontrol Anahtarı Eksik</value>
+  </data>
+  <data name="MODULE_ControlTypeMissing.Text" xml:space="preserve">
+    <value>Modül Kontrol Türü Eksik</value>
+  </data>
+  <data name="MODULE_FriendlyNameMissing.Text" xml:space="preserve">
+    <value>Modül FriendlyName Eksik</value>
+  </data>
+  <data name="MODULE_ReadSuccess.Text" xml:space="preserve">
+    <value>Modül Manifest başarıyla okundu</value>
+  </data>
+  <data name="MODULE_Registered.Text" xml:space="preserve">
+    <value>Modül başarıyla kaydedildi - {0}</value>
+  </data>
+  <data name="MODULE_UnRegistered.Text" xml:space="preserve">
+    <value>Modül başarıyla kaydedildi - {0}</value>
+  </data>
+  <data name="MODULE_AdminPagemoduleAdded.Text" xml:space="preserve">
+    <value>Modül {0} portalında Admin sayfasına eklendi.</value>
+  </data>
+  <data name="MODULE_AdminPagemoduleRemoved.Text" xml:space="preserve">
+    <value>Modül {0} portalında Admin sayfasından kaldırıldı.</value>
+  </data>
+  <data name="MODULE_AdminPageRemoved.Text" xml:space="preserve">
+    <value>Admin sayfası {0} portalından kaldırıldı.</value>
+  </data>
+  <data name="MODULE_AdminPageAdded.Text" xml:space="preserve">
+    <value>Admin sayfası {0} porta eklendi.</value>
+  </data>
+  <data name="MODULE_HostAdded.Text" xml:space="preserve">
+    <value>Modül Host sayfasına {0} eklendi.</value>
+  </data>
+  <data name="MODULE_HostPageAdded.Text" xml:space="preserve">
+    <value>Host sayfası {0} eklendi.</value>
+  </data>
+  <data name="MODULE_HostPagemoduleAdded.Text" xml:space="preserve">
+    <value>Modül Host sayfasına {0} eklendi.</value>
+  </data>
+  <data name="MODULE_HostPageRemoved.Text" xml:space="preserve">
+    <value>Host sayfası {0} kaldırıldı.</value>
+  </data>
+  <data name="MODULE_HostPagemoduleRemoved.Text" xml:space="preserve">
+    <value>Modül Host sayfasından {0} kaldırıldı.</value>
+  </data>
+  <data name="PACKAGE_NoLicense.Text" xml:space="preserve">
+    <value>Bu paket için lisans şu anda kurulum dosyasının içinde bulunmamaktadır, lütfen tam lisans detayları için satıcıyla iletişime geçin.</value>
+  </data>
+  <data name="PACKAGE_NoReleaseNotes.Text" xml:space="preserve">
+    <value>Bu paketin Sürüm Notları bulunmamaktadır</value>
+  </data>
+  <data name="FOLDER_Deleted.Text" xml:space="preserve">
+    <value>Klasör Silindi - {0}</value>
+  </data>
+  <data name="UNINSTALL_Failure.Text" xml:space="preserve">
+    <value>Bileşen Kaldırma Başarısızlığı</value>
+  </data>
+  <data name="WRITER_CreateArchive.Text" xml:space="preserve">
+    <value>Zip Arşivi Oluşturuluyor - {0}</value>
+  </data>
+  <data name="WRITER_SavedFile.Text" xml:space="preserve">
+    <value>Dosya Arşive Kaydedildi - {0}</value>
+  </data>
+  <data name="WRITER_SaveFileError.Text" xml:space="preserve">
+    <value>Dosya Arşive Kaydedilirken Hata Oluştu - {0}</value>
+  </data>
+  <data name="SKIN_Registered.Text" xml:space="preserve">
+    <value>Tema Paketi Başarıyla Kaydedildi - {0}</value>
+  </data>
+  <data name="SKIN_UnRegistered.Text" xml:space="preserve">
+    <value>Tema Paketi Başarıyla Kaydedilmedi - {0}</value>
+  </data>
+  <data name="WRITER_AddFileToManifest.Text" xml:space="preserve">
+    <value>Dosya manifestoya eklendi - {0}</value>
+  </data>
+  <data name="WRITER_CreatedManifest.Text" xml:space="preserve">
+    <value>Manifest Oluşturuldu</value>
+  </data>
+  <data name="WRITER_CreatedPackage.Text" xml:space="preserve">
+    <value>Paket Oluşturuldu</value>
+  </data>
+  <data name="WRITER_CreatingManifest.Text" xml:space="preserve">
+    <value>Manifest Oluşturuluyor</value>
+  </data>
+  <data name="WRITER_CreatingPackage.Text" xml:space="preserve">
+    <value>Paket Oluşturuluyor</value>
+  </data>
+  <data name="PACKAGE_UnRecognizable.Text" xml:space="preserve">
+    <value>Tanınamayan Paket manifestosu</value>
+  </data>
+  <data name="LANGUAGE_Registered.Text" xml:space="preserve">
+    <value>Dil Paketi Başarıyla Kaydedildi - {0}</value>
+  </data>
+  <data name="LANGUAGE_UnRegistered.Text" xml:space="preserve">
+    <value>Dil Paketi Başarıyla Kaydedilmedi - {0}</value>
+  </data>
+  <data name="DisplayEnglish.Text" xml:space="preserve">
+    <value>İngilizce Adı Göster</value>
+  </data>
+  <data name="DisplayNative.Text" xml:space="preserve">
+    <value>Yerli Adı Göster</value>
+  </data>
+  <data name="CLEANUP_ProcessComplete.Text" xml:space="preserve">
+    <value>Temizlik Dosyasının İşlenmesi Tamamlandı - {0}</value>
+  </data>
+  <data name="CLEANUP_ProcessError.Text" xml:space="preserve">
+    <value>Dosyalar Temizlenirken Önemsiz Hata: {0}</value>
+  </data>
+  <data name="CLEANUP_Processing.Text" xml:space="preserve">
+    <value>Temizlik Dosyası İşleniyor - {0}</value>
+  </data>
+  <data name="LANGUAGE_PortalsEnabled.Text" xml:space="preserve">
+    <value>Tüm Web Siteleri İçin Dil Etkinleştirildi - {0}</value>
+  </data>
+  <data name="PermissionTypeGrant.Text" xml:space="preserve">
+    <value>İzin Verildi</value>
+  </data>
+  <data name="PermissionTypeDeny.Text" xml:space="preserve">
+    <value>İzin Reddedildi</value>
+  </data>
+  <data name="PermissionTypeNull.Text" xml:space="preserve">
+    <value>Belirtilmedi</value>
+  </data>
+  <data name="FailedRecipient.Text" xml:space="preserve">
+    <value>Mesaj belirtilen adreslere ulaştırılamadı - {0}</value>
+  </data>
+  <data name="SMTPConfigurationProblem.Text" xml:space="preserve">
+    <value>SMTP Sunucunuzun yapılandırmasında bir sorun var. Posta gönderilmedi.</value>
+  </data>
+  <data name="SmtpInvalidPort.Text" xml:space="preserve">
+    <value>Belirtilen bağlantı noktası geçersiz. Bağlantı noktası 0'dan büyük ve 65536'dan küçük olmalıdır. Posta gönderilmedi.</value>
+  </data>
+  <data name="FILE_NotAllowed.Text" xml:space="preserve">
+    <value>Dosya uzantısı izin verilmiyor - {0}</value>
+  </data>
+  <data name="InsufficientFolderPermission.Text" xml:space="preserve">
+    <value>{0} klasörüne yazma izniniz yok. Lütfen sunucuda uygun güvenlik ayarlarının etkinleştirildiğinden emin olmak için barındırma sağlayıcınızla iletişime geçin.</value>
+  </data>
+  <data name="UNINSTALL_WarningsComp.Text" xml:space="preserve">
+    <value>Bileşen Uyarılarla Kaldırıldı</value>
+  </data>
+  <data name="UNINSTALL_Warnings.Text" xml:space="preserve">
+    <value>Uyarılarla Kaldırıldı</value>
+  </data>
+  <data name="FileInUse.Text" xml:space="preserve">
+    <value>Dosya - {0} - kullanımda gibi görünüyor ve şu anda silinemez. Lütfen birkaç dakika bekleyin ve tekrar deneyin.</value>
+  </data>
+  <data name="GreenSuccess.Text" xml:space="preserve">
+    <value>Başarılı</value>
+  </data>
+  <data name="RedError.Text" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="YellowWarning.Text" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="SelectedRole.Text" xml:space="preserve">
+    <value>Seçilen Rol</value>
+  </data>
+  <data name="jQuery.NotInstalled.Text" xml:space="preserve">
+    <value>jQuery yüklü değil.</value>
+  </data>
+  <data name="jQuery.UnknownVersion.Text" xml:space="preserve">
+    <value>jQuery Sürümü Belirlenemiyor.</value>
+  </data>
+  <data name="SendMail.Error" xml:space="preserve">
+    <value>Onay e-postaları gönderilirken bir hata oluştu - {0} Ancak kullanıcı hesabınız başarıyla oluşturuldu.</value>
+  </data>
+  <data name="TokenReplaceUnknownObject.Text" xml:space="preserve">
+    <value>[{0}:{1}] erişim hatası - {0} bilinmeyen bir veri kaynağıdır.</value>
+  </data>
+  <data name="SKIN_Installed.Text" xml:space="preserve">
+    <value>Tema zaten farklı bir Paket Adı ile yüklü.</value>
+  </data>
+  <data name="ModuleEffective.Text" xml:space="preserve">
+    <value>Modül Etkin - {0}</value>
+  </data>
+  <data name="ModuleVisibleAdministrator.Text" xml:space="preserve">
+    <value>Yalnızca Yöneticiler tarafından görülebilir.</value>
+  </data>
+  <data name="PortalRoot.Text" xml:space="preserve">
+    <value>Site Kökü</value>
+  </data>
+  <data name="False.Text" xml:space="preserve">
+    <value>Yanlış</value>
+  </data>
+  <data name="True.Text" xml:space="preserve">
+    <value>Doğru</value>
+  </data>
+  <data name="EXCEPTION_InvalidEmailAddress.Text" xml:space="preserve">
+    <value>E-posta adresi ({0}) geçerli bir formatta değil.</value>
+  </data>
+  <data name="EXCEPTION_ModuleCacheMissing.Text" xml:space="preserve">
+    <value>ModuleCachingProvider doğru şekilde yapılandırılmamış. Lütfen moduleCaching sağlayıcı yapılandırmasının web.config dosyasında var olduğunu ve varsayılan bir sağlayıcının belirtildiğinden emin olun.</value>
+  </data>
+  <data name="Localization_NotLocalized.Text" xml:space="preserve">
+    <value>Yerelleştirilmemiş</value>
+  </data>
+  <data name="Localization_NotTranslated.Text" xml:space="preserve">
+    <value>Çevrilmemiş</value>
+  </data>
+  <data name="Localization_OutOfDate.Text" xml:space="preserve">
+    <value>Tarihi geçmiş</value>
+  </data>
+  <data name="Localization_Translated.Text" xml:space="preserve">
+    <value>Çevrildi</value>
+  </data>
+  <data name="DeLocalizeModule.Confirm" xml:space="preserve">
+    <value>Bu modülü yerelleştirmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="LocalizeModule.Confirm" xml:space="preserve">
+    <value>Bu modülü yerelleştirmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="TranslateModule.Confirm" xml:space="preserve">
+    <value>Bu modülü çevrildi olarak işaretlemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="UnTranslateModule.Confirm" xml:space="preserve">
+    <value>Bu modülü çevrilmemiş olarak işaretlemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="System_Default.Text" xml:space="preserve">
+    <value>Sistem Varsayılanı</value>
+  </data>
+  <data name="LanguageNotSelected.Text" xml:space="preserve">
+    <value>Tercih ettiğiniz yerel ayarı seçmediniz. Bu nedenle tercih ettiğiniz yerel ayar site varsayılanına otomatik olarak ayarlanacaktır.</value>
+  </data>
+  <data name="DefaultFolderMappings.Error" xml:space="preserve">
+    <value>Varsayılan Klasör Türleri Oluşturulurken Hata Oluştu</value>
+  </data>
+  <data name="jQuery.UI.UnknownVersion.Text" xml:space="preserve">
+    <value>jQuery UI Sürümü Belirlenemiyor.</value>
+  </data>
+  <data name="jQueryUI.NotInstalled.Text" xml:space="preserve">
+    <value>jQuery UI Yüklü Değil.</value>
+  </data>
+  <data name="Confirm.Text" xml:space="preserve">
+    <value>Onayla</value>
+  </data>
+  <data name="RequiredFields.Text" xml:space="preserve">
+    <value>Zorunlu alanları belirtir</value>
+  </data>
+  <data name="CollapseAll.Text" xml:space="preserve">
+    <value>Tümünü Daralt</value>
+  </data>
+  <data name="ExpandAll.Text" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
+  <data name="Ok.Text" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="MODULE_InvalidVersion.Text" xml:space="preserve">
+    <value>Sürüm {0} geçersiz - UpgradeVersions listesine eklenmiyor.</value>
+  </data>
+  <data name="EVENTMESSAGE_CommandMissing.Text" xml:space="preserve">
+    <value>İşlemci komutu manifest dosyasında eksik.</value>
+  </data>
+  <data name="EVENTMESSAGE_TypeMissing.Text" xml:space="preserve">
+    <value>İşlemci türü manifest dosyasında eksik.</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>Modül Yardımı</value>
+  </data>
+  <data name="ResourceNotFound.Text" xml:space="preserve">
+    <value>Kaynak Bulunamadı</value>
+  </data>
+  <data name="FriendsGroups.Text" xml:space="preserve">
+    <value>Arkadaşlar ve Gruplar</value>
+  </data>
+  <data name="ModuleNotIntended.Text" xml:space="preserve">
+    <value>Bu modül, sadece site için profil sayfası olarak tanımlanan bir sayfada kullanılması amaçlanmıştır.</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="UnverifiedUser.Text" xml:space="preserve">
+    <value>Doğrulanmamış bir hesap kullanıyorsunuz. Lütfen size gönderilen doğrulama e-postasındaki bağlantıya tıklayarak hesabınızı doğrulayın. Doğrulama postasını tekrar göndermek için &lt;a href="#" class="send-verification-mail"&gt;buraya&lt;/a&gt; tıklayın.</value>
+  </data>
+  <data name="DayAgo.Text" xml:space="preserve">
+    <value>{0} gün önce</value>
+  </data>
+  <data name="DaysAgo.Text" xml:space="preserve">
+    <value>{0} gün önce</value>
+  </data>
+  <data name="HourAgo.Text" xml:space="preserve">
+    <value>{0} saat önce</value>
+  </data>
+  <data name="HoursAgo.Text" xml:space="preserve">
+    <value>{0} saat önce</value>
+  </data>
+  <data name="MinuteAgo.Text" xml:space="preserve">
+    <value>{0} dakika önce</value>
+  </data>
+  <data name="MinutesAgo.Text" xml:space="preserve">
+    <value>{0} dakika önce</value>
+  </data>
+  <data name="MonthAgo.Text" xml:space="preserve">
+    <value>{0} ay önce</value>
+  </data>
+  <data name="MonthsAgo.Text" xml:space="preserve">
+    <value>{0} ay önce</value>
+  </data>
+  <data name="SecondsAgo.Text" xml:space="preserve">
+    <value>{0} saniye önce</value>
+  </data>
+  <data name="WeekAgo.Text" xml:space="preserve">
+    <value>{0} hafta önce</value>
+  </data>
+  <data name="WeeksAgo.Text" xml:space="preserve">
+    <value>{0} hafta önce</value>
+  </data>
+  <data name="DuplicateDisplayName.Text" xml:space="preserve">
+    <value>Görüntü Adı zaten kullanımda.</value>
+  </data>
+  <data name="InvalidDisplayName.Text" xml:space="preserve">
+    <value>Görüntü Adı geçersiz.</value>
+  </data>
+  <data name="OAuthConfigBase_APIKey.Help" xml:space="preserve">
+    <value>Bu kimlik doğrulama sağlayıcısı için yapılandırdığınız UYGULAMA KİMLİĞİ/API Anahtarı/Tüketici Anahtarının değerini girin.</value>
+  </data>
+  <data name="OAuthConfigBase_APIKey.Text" xml:space="preserve">
+    <value>UYGULAMA KİMLİĞİ</value>
+  </data>
+  <data name="OAuthConfigBase_APISecret.Help" xml:space="preserve">
+    <value>Bu kimlik doğrulama sağlayıcısı için yapılandırdığınız UYGULAMA Sırrı/Tüketici Sırrının değerini girin.</value>
+  </data>
+  <data name="OAuthConfigBase_APISecret.Text" xml:space="preserve">
+    <value>UYGULAMA Sırrı</value>
+  </data>
+  <data name="OAuthConfigBase_Enabled.Help" xml:space="preserve">
+    <value>Bu site için bu kimlik doğrulama sağlayıcısını etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="OAuthConfigBase_Enabled.Text" xml:space="preserve">
+    <value>Etkin</value>
+  </data>
+  <data name="OAuthConfigBase_LoginURL.Help" xml:space="preserve">
+    <value>Sitenizin Giriş sayfası için URL'yi girin.</value>
+  </data>
+  <data name="OAuthConfigBase_LoginURL.Text" xml:space="preserve">
+    <value>Giriş URL'si:</value>
+  </data>
+  <data name="OAuthConfigBase_RegisterURL.Help" xml:space="preserve">
+    <value>Sitenizin Kayıt sayfası için URL'yi girin.</value>
+  </data>
+  <data name="OAuthConfigBase_RegisterURL.Text" xml:space="preserve">
+    <value>Kayıt URL'si:</value>
+  </data>
+  <data name="Follow.Text" xml:space="preserve">
+    <value>Takip Et</value>
+  </data>
+  <data name="Accept.Text" xml:space="preserve">
+    <value>Kabul Et</value>
+  </data>
+  <data name="AcceptFriend.Text" xml:space="preserve">
+    <value>Arkadaşlık İsteğini Kabul Et</value>
+  </data>
+  <data name="DismissNotification.Text" xml:space="preserve">
+    <value>Bu Bildirimi Kapat</value>
+  </data>
+  <data name="FollowBack.Text" xml:space="preserve">
+    <value>Geri Takip Et</value>
+  </data>
+  <data name="Ignore.Text" xml:space="preserve">
+    <value>Yoksay</value>
+  </data>
+  <data name="IgnoreFriend.Text" xml:space="preserve">
+    <value>Arkadaşlık İsteğini Yoksay</value>
+  </data>
+  <data name="Dismiss.Text" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="UserFolderTitle.Text" xml:space="preserve">
+    <value>Dosyalarım</value>
+  </data>
+  <data name="COMPONENT_Skipped.Text" xml:space="preserve">
+    <value>Bileşen Atlandı</value>
+  </data>
+  <data name="DeleteSharedModule.Confirm" xml:space="preserve">
+    <value>Bu modül, site grubundaki diğer siteler tarafından paylaşılıyor. Bu örneği silmek, diğer sitelerdeki tüm paylaşılan örnekleri kaldıracaktır. Modülü kimlerin paylaştığını görmek için Ayarlar &gt; Modül Ayarları &gt; Sayfaya Eklendi bölümüne bakın. Bu modülü ve tüm paylaşılan örnekleri silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="CopyPermissionsToChildren.Text" xml:space="preserve">
+    <value>İzinler bu sayfanın tüm alt öğeleri için değiştirilecektir. Devam etmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="MyFolderName.Text" xml:space="preserve">
+    <value>Benim Klasörüm</value>
+  </data>
+  <data name="Basic.Text" xml:space="preserve">
+    <value>Profil Temel Ayarları</value>
+  </data>
+  <data name="Contact.Text" xml:space="preserve">
+    <value>İletişim Bilgileri</value>
+  </data>
+  <data name="Location.Text" xml:space="preserve">
+    <value>Konum Bilgileri</value>
+  </data>
+  <data name="ProfileUrlCleaned.Text" xml:space="preserve">
+    <value>Gönderilen URL, kaldırılmış olan yasaklı karakterleri içeriyor. Değiştirilmiş URL'yi kabul etmek için Güncelle'ye tıklayın.</value>
+  </data>
+  <data name="CleanWarningTitle.Text" xml:space="preserve">
+    <value>URL Temizlendi</value>
+  </data>
+  <data name="DuplicateUrlWarningTitle.Text" xml:space="preserve">
+    <value>Yinelenen URL</value>
+  </data>
+  <data name="ProfileUrlNotUnique.Text" xml:space="preserve">
+    <value>İstenen URL mevcut değil. Önerilen alternatifi kabul etmek için Güncelle'ye tıklayın.</value>
+  </data>
+  <data name="DraftCompleted.Action" xml:space="preserve">
+    <value>Taslak Tamamlandı</value>
+  </data>
+  <data name="DraftCompleted.Comment" xml:space="preserve">
+    <value>Taslak Durumu tamamlandı. İçerik yayınlanmaya hazır.</value>
+  </data>
+  <data name="StateCompleted.Action" xml:space="preserve">
+    <value>Durum Tamamlandı</value>
+  </data>
+  <data name="StateCompleted.Comment" xml:space="preserve">
+    <value>Durum '[STATE]' onaylandı.</value>
+  </data>
+  <data name="StateDiscarded.Action" xml:space="preserve">
+    <value>Durum Reddedildi</value>
+  </data>
+  <data name="StateDiscarded.Comment" xml:space="preserve">
+    <value>Durum '[STATE]' reddedildi.</value>
+  </data>
+  <data name="StateInitiated.Action" xml:space="preserve">
+    <value>Durum Başlatıldı</value>
+  </data>
+  <data name="StateInitiated.Comment" xml:space="preserve">
+    <value>İş Akışı '[STATE]' durumunda.</value>
+  </data>
+  <data name="WorkflowApproved.Action" xml:space="preserve">
+    <value>İş Akışı Tamamlandı</value>
+  </data>
+  <data name="WorkflowApproved.Comment" xml:space="preserve">
+    <value>İş Akışı '[WORKFLOW]' tamamlandı. İçerik onaylandı.</value>
+  </data>
+  <data name="WorkflowError.Action" xml:space="preserve">
+    <value>İş Akışı Hatası</value>
+  </data>
+  <data name="WorkflowError.Comment" xml:space="preserve">
+    <value>İş Akışı '[WORKFLOW]' bir hata fırlattı.</value>
+  </data>
+  <data name="WorkflowStarted.Action" xml:space="preserve">
+    <value>İş Akışı Başlatıldı</value>
+  </data>
+  <data name="WorkflowStarted.Comment" xml:space="preserve">
+    <value>İş Akışı '[WORKFLOW]' başlatıldı.</value>
+  </data>
+  <data name="URLPROVIDER_NameMissing.Text" xml:space="preserve">
+    <value>Url Sağlayıcı Adı Eksik</value>
+  </data>
+  <data name="URLPROVIDER_Registered.Text" xml:space="preserve">
+    <value>Url Sağlayıcı Kaydedildi</value>
+  </data>
+  <data name="URLPROVIDER_TypeMissing.Text" xml:space="preserve">
+    <value>Url Sağlayıcı Türü Eksik</value>
+  </data>
+  <data name="URLPROVIDER_UnRegistered.Text" xml:space="preserve">
+    <value>Url Sağlayıcı Kaydı Silindi</value>
+  </data>
+  <data name="URLPROVIDER_ReadSuccess.Text" xml:space="preserve">
+    <value>Url Sağlayıcı Manifestosu başarıyla okundu</value>
+  </data>
+  <data name="DefaultWorkflowDescription.Text" xml:space="preserve">
+    <value>Yazarın içeriği yönetmesine ve ardından başkaları tarafından gözden geçirilmeden önce yayınlanmasına izin verir.</value>
+  </data>
+  <data name="DefaultWorkflowName.Text" xml:space="preserve">
+    <value>İçerik Onayı</value>
+  </data>
+  <data name="DefaultWorkflowState1.OnCompleteMessageBody" xml:space="preserve">
+    <value>[DATE]: [FILE] dosyası [USER] tarafından gözden geçirilmek üzere hazır.</value>
+  </data>
+  <data name="DefaultWorkflowState1.OnCompleteMessageSubject" xml:space="preserve">
+    <value>Dosya gözden geçirilmek üzere hazır</value>
+  </data>
+  <data name="DefaultWorkflowState1.StateName" xml:space="preserve">
+    <value>Taslak</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnCompleteMessageBody" xml:space="preserve">
+    <value>[DATE]: Dosya [FILE], [USER] tarafından onaylandı.</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnCompleteMessageSubject" xml:space="preserve">
+    <value>Dosya onaylandı</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnDiscardMessageBody" xml:space="preserve">
+    <value>[DATE]: Dosya [FILE], [USER] tarafından reddedildi.</value>
+  </data>
+  <data name="DefaultWorkflowState2.OnDiscardMessageSubject" xml:space="preserve">
+    <value>Dosya reddedildi</value>
+  </data>
+  <data name="DefaultWorkflowState2.StateName" xml:space="preserve">
+    <value>İncelemeye Hazır</value>
+  </data>
+  <data name="DefaultWorkflowState3.StateName" xml:space="preserve">
+    <value>Yayınlandı</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="CommentProvided.Action" xml:space="preserve">
+    <value>Yorum Yapıldı</value>
+  </data>
+  <data name="CommentProvided.Comment" xml:space="preserve">
+    <value>Durum '[STATE]' yorumu: [COMMENT]</value>
+  </data>
+  <data name="WorkflowDiscarded.Action" xml:space="preserve">
+    <value>İş Akışı Reddedildi</value>
+  </data>
+  <data name="WorkflowDiscarded.Comment" xml:space="preserve">
+    <value>'[WORKFLOW]' İş Akışı, '[STATE]' durumunda reddedildi.</value>
+  </data>
+  <data name="DropDownList.SearchInputPlaceHolder" xml:space="preserve">
+    <value>Ara...</value>
+  </data>
+  <data name="DropDownList.SearchButtonTooltip" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="DropDownList.ClearButtonTooltip" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="DropDownList.SortAscendingButtonTitle" xml:space="preserve">
+    <value>A-Z</value>
+  </data>
+  <data name="DropDownList.SortAscendingButtonTooltip" xml:space="preserve">
+    <value>Artan sırayla sırala</value>
+  </data>
+  <data name="DropDownList.SortDescendingButtonTooltip" xml:space="preserve">
+    <value>Azalan sırayla sırala</value>
+  </data>
+  <data name="DropDownList.UnsortedOrderButtonTooltip" xml:space="preserve">
+    <value>Sıralamayı kaldır</value>
+  </data>
+  <data name="DropDownList.Results" xml:space="preserve">
+    <value>Sonuçlar</value>
+  </data>
+  <data name="DropDownList.SelectedItemExpandTooltip" xml:space="preserve">
+    <value>Genişletmek için tıklayın</value>
+  </data>
+  <data name="DropDownList.SelectedItemCollapseTooltip" xml:space="preserve">
+    <value>Daraltmak için tıklayın</value>
+  </data>
+  <data name="DropDownList.LoadingResultText" xml:space="preserve">
+    <value>...Sonuçlar Yükleniyor</value>
+  </data>
+  <data name="DropDownList.SelectWebPageDefaultText" xml:space="preserve">
+    <value>Bir Web Sayfası Seçin</value>
+  </data>
+  <data name="DropDownList.SelectUserDefaultText" xml:space="preserve">
+    <value>Bir Kullanıcı Seçin</value>
+  </data>
+  <data name="DropDownList.SelectFolderDefaultText" xml:space="preserve">
+    <value>Bir Klasör Seçin</value>
+  </data>
+  <data name="SEARCH_NoLink.Text" xml:space="preserve">
+    <value>[bağlantı mevcut değil]</value>
+  </data>
+  <data name="VerificationSuccess.Text" xml:space="preserve">
+    <value>Hesabınız başarıyla doğrulandı.</value>
+  </data>
+  <data name="RootFolder.Name" xml:space="preserve">
+    <value>Site Kökü</value>
+  </data>
+  <data name="HostRootFolder.Name" xml:space="preserve">
+    <value>Ana Kök</value>
+  </data>
+  <data name="LIBRARY_ReadSuccess.Text" xml:space="preserve">
+    <value>Kütüphane manifestosu başarıyla ayrıştırıldı</value>
+  </data>
+  <data name="LIBRARY_Registered.Text" xml:space="preserve">
+    <value>Kütüphane Başarıyla Kaydedildi - {0}</value>
+  </data>
+  <data name="LIBRARY_UnRegistered.Text" xml:space="preserve">
+    <value>Kütüphane Başarıyla Kayıt Dışı Bırakıldı - {0}</value>
+  </data>
+  <data name="Daily.Text" xml:space="preserve">
+    <value>Günlük</value>
+  </data>
+  <data name="Hourly.Text" xml:space="preserve">
+    <value>Saatlik</value>
+  </data>
+  <data name="Monthly.Text" xml:space="preserve">
+    <value>Aylık</value>
+  </data>
+  <data name="Weekly.Text" xml:space="preserve">
+    <value>Haftalık</value>
+  </data>
+  <data name="ScriptCollision.Text" xml:space="preserve">
+    <value>Bu sayfa için iki veya daha fazla farklı JavaScript kütüphane sürümü isteği yapıldı. Detaylar olay günlüğüne kaydedildi.</value>
+  </data>
+  <data name="ViewJournal.Text" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="SizeB.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="SizeGb.Text" xml:space="preserve">
+    <value>GB</value>
+  </data>
+  <data name="SizeKb.Text" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="SizeMb.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="Friends.Text" xml:space="preserve">
+    <value>Arkadaşlar</value>
+  </data>
+  <data name="Followers.Text" xml:space="preserve">
+    <value>Takipçiler</value>
+  </data>
+  <data name="FriendsAndGroups.Text" xml:space="preserve">
+    <value>Arkadaşlar ve Gruplar</value>
+  </data>
+  <data name="PermissionRoleHeader.Text" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="InvalidRoleId.Text" xml:space="preserve">
+    <value>Belirtilen rol geçersiz. Lütfen geçerli bir rol belirtin.</value>
+  </data>
+  <data name="PermissionActionsHeader.Text" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="RoleNotFound.Text" xml:space="preserve">
+    <value>Seçilen rol bulunamadı. Lütfen sayfayı yenileyip tekrar deneyin.</value>
+  </data>
+  <data name="RoleSelect.Text" xml:space="preserve">
+    <value>Rol Seç:</value>
+  </data>
+  <data name="CreatingConfiguredFolderMapping.Error" xml:space="preserve">
+    <value>Yapılandırma dosyasından bir klasör eşleme oluşturulurken hata oluştu.</value>
+  </data>
+  <data name="PermissionUserHeader.Text" xml:space="preserve">
+    <value>Kullanıcı</value>
+  </data>
+  <data name="ChooseFile.Text" xml:space="preserve">
+    <value>Dosya Seç</value>
+  </data>
+  <data name="Review.Text" xml:space="preserve">
+    <value>İncele</value>
+  </data>
+  <data name="FileUpload.UnzipFilePromptTitle.Text" xml:space="preserve">
+    <value>Bilgiyi Çıkart</value>
+  </data>
+  <data name="FileUpload.UnzipFileFailedPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="invalidFiles"&gt;&lt;p&gt;[COUNT] dosyanın [TOTAL] dosyası desteklenmeyen dosya türleri olduğu için çıkarılamadı:&lt;/p&gt;[FILELIST]&lt;/div&gt;</value>
+  </data>
+  <data name="FileUpload.UnzipFileSuccessPromptBody.Text" xml:space="preserve">
+    <value>&lt;div class="validFiles"&gt;&lt;p&gt;[TOTAL] dosyanın [TOTAL] dosyası başarıyla çıkarıldı.&lt;/p&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="AuthorizeUser.Text" xml:space="preserve">
+    <value>Yetkilendir</value>
+  </data>
+  <data name="AuthorizeUserDescription.Text" xml:space="preserve">
+    <value>Kullanıcı kaydını yetkilendir.</value>
+  </data>
+  <data name="RejectUser.Text" xml:space="preserve">
+    <value>Reddet</value>
+  </data>
+  <data name="RejectUserDescription.Text" xml:space="preserve">
+    <value>Kullanıcı kaydını reddet. Kullanıcıyı kaldırır.</value>
+  </data>
+  <data name="DefaultWorkflowMigrationPrefix.Text" xml:space="preserve">
+    <value>Klasörler:</value>
+  </data>
+  <data name="DefaultDirectPublishWorkflowDescription.Text" xml:space="preserve">
+    <value>Bir yazarın içeriği doğrudan siteye yayınlamasına izin verir.</value>
+  </data>
+  <data name="DefaultDirectPublishWorkflowName.Text" xml:space="preserve">
+    <value>Doğrudan Yayınla</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowDescription.Text" xml:space="preserve">
+    <value>Yazarın içeriği yayınlanmadan önce bir taslak kopyasını kaydetmesine izin verir.</value>
+  </data>
+  <data name="DefaultSaveDraftWorkflowName.Text" xml:space="preserve">
+    <value>Taslak Kaydet</value>
+  </data>
+  <data name="QuickSettings.Text" xml:space="preserve">
+    <value>Hızlı Ayarlar</value>
+  </data>
+  <data name="ContentType.Text" xml:space="preserve">
+    <value>İçerik Türü</value>
+  </data>
+  <data name="DataType.Text" xml:space="preserve">
+    <value>Veri Türü</value>
+  </data>
+  <data name="NoRecords.Text" xml:space="preserve">
+    <value>Görüntülenecek kayıt yok</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="PotentialDangerousFile.Text" xml:space="preserve">
+    <value>Web sitenize potansiyel olarak tehlikeli bir dosya eklenmiştir</value>
+  </data>
+  <data name="RestrictFileMail_Body.Text" xml:space="preserve">
+    <value>&lt;p&gt;Sevgili Site Sahibi,&lt;/p&gt;&lt;p&gt;Güvenlik izleyicisi, web sitenize bir veya daha fazla &lt;b&gt;potansiyel olarak tehlikeli dosya&lt;/b&gt; eklediğini tespit etti. Eklenen tüm dosyaları görmek için site etkinlik günlüklerini kontrol edin.
+Bu eklemeyi bekliyorsanız, bu e-postayı görmezden gelin; aksi takdirde hemen bir işlem önerilir.&lt;/p&gt;
+&lt;p&gt;Eklenen dosya(lar):&lt;br/&gt;&lt;b&gt;[Yol]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Teşekkürler,&lt;/p&gt;&lt;p&gt;[UygulamaAdı] [UygulamaSürümü]&lt;/p&gt;</value>
+  </data>
+  <data name="RestrictFileMail_Subject.Text" xml:space="preserve">
+    <value>Web sitenize potansiyel olarak tehlikeli bir dosya eklenmiştir</value>
+  </data>
+  <data name="ModuleShared.Text" xml:space="preserve">
+    <value>Paylaşılan Modül</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Help" xml:space="preserve">
+    <value>Bu onay kutusunu işaretleyerek, bu kimlik doğrulama sağlayıcısı için yapılandırmayı ana bilgisayar düzeyinde saklayabilirsiniz, böylece tüm portal siteleri bu kimlik doğrulama sağlayıcısı için yapılandırma bilgilerini paylaşır.</value>
+  </data>
+  <data name="OAuthConfigBase_HostConfig.Text" xml:space="preserve">
+    <value>Ana Bilgisayar Yapılandırması Kullanılsın mı?</value>
+  </data>
+  <data name="VerificationMailSendSuccessful.Text" xml:space="preserve">
+    <value>Doğrulama Postası Gönderimi Başarılı.</value>
+  </data>
+  <data name="EXCEPTION_GlobDotDotNotSupportedInCleanup.Text" xml:space="preserve">
+    <value>".." temizleme bileşeninde desteklenmeyen bir glob özelliği değil, bu temizleme atlandı.</value>
+  </data>
+  <data name="SQL_Manifest_BadFile.Text" xml:space="preserve">
+    <value>Dosya {0} ile manifestte bir hata var</value>
+  </data>
+  <data name="SQL_Manifest_Error.Text" xml:space="preserve">
+    <value>Betiklerle ilgili manifestte bir hata var</value>
+  </data>
+  <data name="ErrorDecryptingSetting.Text" xml:space="preserve">
+    <value>{0} parametresi şifrelenemedi</value>
+  </data>
+</root>
