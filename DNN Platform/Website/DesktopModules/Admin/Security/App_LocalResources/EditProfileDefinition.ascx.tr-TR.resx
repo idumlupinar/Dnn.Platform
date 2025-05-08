@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditProperty.Text" xml:space="preserve">
+    <value>Profil Özelliği Tanımını Düzenle</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Yeni Profil Özelliği Ekle</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text" xml:space="preserve">
+    <value>Veri Türü:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help" xml:space="preserve">
+    <value>Bu alan için veri türünü seçin.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text" xml:space="preserve">
+    <value>Varsayılan Değer:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help" xml:space="preserve">
+    <value>Opsiyonel olarak bu özellik için bir varsayılan değer sağlayın.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text" xml:space="preserve">
+    <value>Özellik Kategorisi:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help" xml:space="preserve">
+    <value>Bu özellik için kategori girin. Bu, ilgili özelliklerin kullanıcıya gösterildiğinde gruplandırılmasını sağlar.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text" xml:space="preserve">
+    <value>Özellik Adı:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help" xml:space="preserve">
+    <value>Özellik için bir ad girin.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text" xml:space="preserve">
+    <value>Doğrulama İfadesi:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help" xml:space="preserve">
+    <value>Bu özellik için girilen verileri doğrulamak için bir düzenli ifade sağlayabilirsiniz.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text" xml:space="preserve">
+    <value>Görüntüleme Sırası:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help" xml:space="preserve">
+    <value>Bu özelliğin görüntü sırasını belirlemek için bir sayı girin veya eklemek için boş bırakın.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text" xml:space="preserve">
+    <value>Görünür:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help" xml:space="preserve">
+    <value>Bu özelliğin kullanıcı tarafından görüntülenip düzenlenebilmesi durumunda bu kutuyu işaretleyin veya yalnızca Yöneticiler tarafından görüntülenebilir durumdaysa işaretlenmemiş bırakın.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text" xml:space="preserve">
+    <value>Gerekli:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help" xml:space="preserve">
+    <value>Bu özelliğin zorunlu olup olmadığını belirleyin.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text" xml:space="preserve">
+    <value>Uzunluk:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help" xml:space="preserve">
+    <value>Bu özelliğin maksimum uzunluğunu girin. Bu yalnızca belirli veri tipleri için geçerli olacaktır.</value>
+  </data>
+  <data name="DuplicateName.Text" xml:space="preserve">
+    <value>Bu özellik zaten mevcut. Özellik adları benzersiz olmalıdır. Lütfen bu özellik için farklı bir ad seçin.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required" xml:space="preserve">
+    <value>Kategori zorunludur.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required" xml:space="preserve">
+    <value>Özellik adı zorunludur.</value>
+  </data>
+  <data name="plCategoryName.Help" xml:space="preserve">
+    <value>Seçilen dilde kategori adı için metni girin.</value>
+  </data>
+  <data name="plCategoryName.Text" xml:space="preserve">
+    <value>Kategori Adı:</value>
+  </data>
+  <data name="plLocales.Help" xml:space="preserve">
+    <value>Dili seçin.</value>
+  </data>
+  <data name="plLocales.Text" xml:space="preserve">
+    <value>Dil Seçin:</value>
+  </data>
+  <data name="plPropertyHelp.Help" xml:space="preserve">
+    <value>Seçilen dilde bu özelliğin Yardımını girin.</value>
+  </data>
+  <data name="plPropertyHelp.Text" xml:space="preserve">
+    <value>Özellik Yardımı:</value>
+  </data>
+  <data name="plPropertyName.Help" xml:space="preserve">
+    <value>Seçilen dilde özelliğin adı metnini girin.</value>
+  </data>
+  <data name="plPropertyName.Text" xml:space="preserve">
+    <value>Özellik Adı:</value>
+  </data>
+  <data name="cmdCreate.Text" xml:space="preserve">
+    <value>Yeni Özellik Oluştur</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Özelliği Güncelle</value>
+  </data>
+  <data name="Introduction.Help" xml:space="preserve">
+    <value>Profil Özelliği Tanımını düzenlemenin ilk adımı, özelliğin detaylarını güncellemektir. Bu sayfadaki alanlarda yapmanız gereken herhangi bir değişikliği yapın ve Değişiklikleri kaydetmek ve bir sonraki adıma geçmek için İleri'ye tıklayın.</value>
+  </data>
+  <data name="Introduction.Title" xml:space="preserve">
+    <value>Özellik Detaylarını Düzenle</value>
+  </data>
+  <data name="List.Help" xml:space="preserve">
+    <value>Özellik detayları güncellendi. Bu özellik bir Liste tipi özelliktir. Bir sonraki adım, liste girişlerini tanımlamaktır.</value>
+  </data>
+  <data name="List.Title" xml:space="preserve">
+    <value>Liste Girişlerini Yönet</value>
+  </data>
+  <data name="Introduction_Add.Help" xml:space="preserve">
+    <value>Profil Özellik Tanımı oluşturmanın ilk adımı, özelliğin detaylarını tanımlamaktır. Bu sayfada detayları girin ve "İleri"'ye tıklayarak Özellik Tanımını oluşturun. &lt;b&gt;Not:&lt;/b&gt; Kırmızı yıldızla işaretlenen tüm alanlar zorunludur.</value>
+  </data>
+  <data name="Introduction_Add.Title" xml:space="preserve">
+    <value>Yeni Özellik Detayı Ekle</value>
+  </data>
+  <data name="Localization.Help" xml:space="preserve">
+    <value>Bu özelliğin yerelleştirilmesini yönetmek için bir sonraki adım, güncellemek istediğiniz dili seçmek, yeni metin eklemek veya mevcut metni değiştirmek ve ardından Güncelle'ye tıklamaktır.</value>
+  </data>
+  <data name="Localization.Title" xml:space="preserve">
+    <value>Yerelleştirmeyi Yönet</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Profil Özellikleri Listesine Geri Dön</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Validation" xml:space="preserve">
+    <value>Özellik adı boşluk içeremez.</value>
+  </data>
+  <data name="plPropertyRequired.Help" xml:space="preserve">
+    <value>Bu alan zorunlu olduğunda ancak mevcut değilken görüntülenecek hata mesajını girin.</value>
+  </data>
+  <data name="plPropertyRequired.Text" xml:space="preserve">
+    <value>Zorunlu Hata Mesajı:</value>
+  </data>
+  <data name="plPropertyValidation.Help" xml:space="preserve">
+    <value>Bu alanın, Düzenli İfade Doğrulamasını geçemediğinde görüntülenecek hata mesajını girin.</value>
+  </data>
+  <data name="plPropertyValidation.Text" xml:space="preserve">
+    <value>Doğrulama Hata Mesajı:</value>
+  </data>
+  <data name="RequiredTextBox.Text" xml:space="preserve">
+    <value>TextBox alanı kullanıyorsanız, gerekli uzunluk 0'dan büyük olmalıdır.</value>
+  </data>
+  <data name="AddProperty.Text" xml:space="preserve">
+    <value>Profil Özelliği Tanımı Ekle</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Help" xml:space="preserve">
+    <value>Profil özelliğinin varsayılan görünürlüğünü ayarlayabilirsiniz. Bu, kullanıcı profillerini düzenlerken kullanıcı tarafından değiştirilmezse görünürlüğün başlangıç değeridir.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultVisibility.Text" xml:space="preserve">
+    <value>Varsayılan Görünürlük:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Help" xml:space="preserve">
+    <value>Salt okunur profil özellikleri Yönetici tarafından düzenlenebilir ancak kullanıcıya salt okunurdur.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ReadOnly.Text" xml:space="preserve">
+    <value>Salt Okunur:</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Return.Text" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="valPropertyName.ErrorMessage" xml:space="preserve">
+    <value>Bu özellik için bir isim girmeniz gerekiyor.</value>
+  </data>
+</root>
