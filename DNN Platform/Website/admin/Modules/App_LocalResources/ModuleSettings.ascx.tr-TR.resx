@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>Modül Ayarları</value>
+  </data>
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>Modül:</value>
+  </data>
+  <data name="plFriendlyName.Help" xml:space="preserve">
+    <value>Modülün adını görüntüler.</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>Modül Başlığı:</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>Modül için bir başlık girin. Başlık, destekleniyorsa modül için konteynerin başlık çubuğunda görünecektir.</value>
+  </data>
+  <data name="PageSettings.Text" xml:space="preserve">
+    <value>Sayfa Ayarları</value>
+  </data>
+  <data name="Security.Text" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="plAllTabs.Text" xml:space="preserve">
+    <value>Tüm Sayfalarda Modülü Göster</value>
+  </data>
+  <data name="plAllTabs.Help" xml:space="preserve">
+    <value>Tüm site sayfalarında modülü aynı konumda göstermek için kutuyu işaretleyin.</value>
+  </data>
+  <data name="plVisibility.Text" xml:space="preserve">
+    <value>Daralt / Genişlet:</value>
+  </data>
+  <data name="plVisibility.Help" xml:space="preserve">
+    <value>Bu modül için varsayılan görünürlüğü seçin. Yani modülün daraltılmış mı yoksa genişletilmiş mi olduğu.</value>
+  </data>
+  <data name="plTab.Text" xml:space="preserve">
+    <value>Sayfaya Taşı:</value>
+  </data>
+  <data name="plTab.Help" xml:space="preserve">
+    <value>Bu modül örneğinin taşınacağı sayfayı seçin.</value>
+  </data>
+  <data name="plHeader.Text" xml:space="preserve">
+    <value>Başlık:</value>
+  </data>
+  <data name="plHeader.Help" xml:space="preserve">
+    <value>Bu modülün içeriğinin üzerinde görünecek başlık metnini girin.</value>
+  </data>
+  <data name="plFooter.Text" xml:space="preserve">
+    <value>Alt Bilgi:</value>
+  </data>
+  <data name="plFooter.Help" xml:space="preserve">
+    <value>Bu modülün içeriğinin altında görünecek alt bilgi metnini girin.</value>
+  </data>
+  <data name="plIcon.Text" xml:space="preserve">
+    <value>Simge:</value>
+  </data>
+  <data name="plIcon.Help" xml:space="preserve">
+    <value>Bu modülün başlık çubuğunda görüntülenecek bir simge seçin.</value>
+  </data>
+  <data name="plAlign.Text" xml:space="preserve">
+    <value>Hizalama:</value>
+  </data>
+  <data name="plAlign.Help" xml:space="preserve">
+    <value>Modül içeriğinin varsayılan hizalamasını seçin.</value>
+  </data>
+  <data name="plColor.Text" xml:space="preserve">
+    <value>Renk:</value>
+  </data>
+  <data name="plColor.Help" xml:space="preserve">
+    <value>Bu modülün arka planı için bir renk adı veya onaltılık değer girin.</value>
+  </data>
+  <data name="plBorder.Text" xml:space="preserve">
+    <value>Kenar:</value>
+  </data>
+  <data name="plBorder.Help" xml:space="preserve">
+    <value>Modül için bir kenar genişliği girin.</value>
+  </data>
+  <data name="plModuleContainer.Text" xml:space="preserve">
+    <value>Modül Konteyneri:</value>
+  </data>
+  <data name="plModuleContainer.Help" xml:space="preserve">
+    <value>Modül için bir konteyner seçin.</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>İzinler:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Kutudaki izinleri işaretleyerek/modifiye ederek Görüntüle ve Düzenle izinlerini seçin. Modül için sayfa iznini kullanmak için Miras Görüntü İzinleri kutusunu işaretleyin.</value>
+  </data>
+  <data name="plCacheTime.Text" xml:space="preserve">
+    <value>Önbellek Süresi (sn):</value>
+  </data>
+  <data name="plCacheTime.Help" xml:space="preserve">
+    <value>Bu modülün içeriğinin önbelleğe alındığı saniye sayısını girin.</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>Başlangıç Tarihi:</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>Bu modülün görüntülenmesi için başlangıç tarihini seçin. Bu tarihten önce Yönetim izinlerine sahip kullanıcılara modül görünür olacaktır.</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Bitiş Tarihi:</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Bu modülün görüntülenmesi için bitiş tarihini seçin. Bu tarihten sonra Yönetim izinlerine sahip kullanıcılara modül görünür olacaktır.</value>
+  </data>
+  <data name="plMoniker.Text" xml:space="preserve">
+    <value>Modül Takma Adı:</value>
+  </data>
+  <data name="plMoniker.Help" xml:space="preserve">
+    <value>Sayfa üzerinde bu modül için benzersiz bir tanımlayıcı. Bu, WEB API çağrıcılarının Sekme ve Modül bağlamını ayarlamak için kullanılabilir.</value>
+  </data>
+  <data name="plDefault.Text" xml:space="preserve">
+    <value>Varsayılan Ayarlar Olarak Ayarla</value>
+  </data>
+  <data name="plDefault.Help" xml:space="preserve">
+    <value>Yeni modüller eklerken bu modülün Sayfa Ayarlarını varsayılan ayarlar olarak kullanmak için bu kutuyu işaretleyin. Yalnızca yöneticiler.</value>
+  </data>
+  <data name="plAllModules.Text" xml:space="preserve">
+    <value>Tüm Modüllere Uygula</value>
+  </data>
+  <data name="plAllModules.Help" xml:space="preserve">
+    <value>Bu kutuyu işaretleyerek bu modülün Sayfa Ayarlarını tüm mevcut modüllere uygulamak için bu kutuyu işaretleyin. Yalnızca yöneticiler.</value>
+  </data>
+  <data name="GeneralDetails.Text" xml:space="preserve">
+    <value>Temel Ayarlar</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Temel Ayarlar</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="InheritPermissions.Text" xml:space="preserve">
+    <value>&lt;b&gt;Görünüm&lt;/b&gt; izinlerini &lt;b&gt;Sayfa&lt;/b&gt;'dan devral</value>
+  </data>
+  <data name="ControlTitle_module.Text" xml:space="preserve">
+    <value>Modül</value>
+  </data>
+  <data name="plDisplayTitle.Text" xml:space="preserve">
+    <value>Konteyneri Göster</value>
+  </data>
+  <data name="plDisplayTitle.Help" xml:space="preserve">
+    <value>Modül konteynerini göstermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plDisplaySyndicate.Text" xml:space="preserve">
+    <value>Sendikasyona İzin Ver</value>
+  </data>
+  <data name="plDisplayPrint.Help" xml:space="preserve">
+    <value>Bu modülde yazdırma işlemini etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plDisplaySyndicate.Help" xml:space="preserve">
+    <value>Bu modülde RSS'yi etkinleştirmek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="plDisplayPrint.Text" xml:space="preserve">
+    <value>Yazdırmaya İzin Ver</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz başlangıç tarihi.</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz bitiş tarihi.</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz önbellek süresi.</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Modül Ayarları&lt;/h1&gt;&lt;p&gt;Mevcut Sayfa için Modül Ayarlarını yönetin. Bu, modülün içeriği, izinleri ve görüntü özellikleri de dahil olmak üzere özelliklerini belirtmenizi sağlar.&lt;/p&gt;</value>
+  </data>
+  <data name="valBorder.ErrorMessage" xml:space="preserve">
+    <value>Geçersiz Sınır (0 ile 9 arasında bir sayı olmalıdır).</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>Bitiş Tarihi Başlangıç Tarihinden Sonra Olmalıdır.</value>
+  </data>
+  <data name="plNewTabs.Help" xml:space="preserve">
+    <value>Bu kutuyu işaretleyin, modülü yalnızca yeni sayfalara eklemek için. Yalnızca yöneticiler.</value>
+  </data>
+  <data name="plNewTabs.Text" xml:space="preserve">
+    <value>Yalnızca Yeni Sayfalara Ekle</value>
+  </data>
+  <data name="InstalledOn.Text" xml:space="preserve">
+    <value>Bu modül aşağıdaki sayfalara eklenmiştir:</value>
+  </data>
+  <data name="ModuleInstalledOn.Text" xml:space="preserve">
+    <value>Sayfalara Eklendi</value>
+  </data>
+  <data name="InstalledOn.Help" xml:space="preserve">
+    <value>Bu liste, mevcut modül ekleme özelliğini kullanarak bu modülün eklendiği sayfaları gösterir. Mevcut bir modül, mevcut modül ekleme özelliğini kullanarak diğer sayfalara eklenebilir.</value>
+  </data>
+  <data name="MsgInstalledOnNone.Text" xml:space="preserve">
+    <value>Bu modül örneği herhangi bir ek sayfaya eklenmemiştir.</value>
+  </data>
+  <data name="MsgInstalledOnAll.Text" xml:space="preserve">
+    <value>Bu modül örneği tüm sayfalarda görüntülenmektedir.</value>
+  </data>
+  <data name="CustomSettings.Text" xml:space="preserve">
+    <value>{0} Ayarları</value>
+  </data>
+  <data name="ModuleExists.Text" xml:space="preserve">
+    <value>Bu modül zaten hedef sayfada mevcut (Geridönüşüm Kutusunda olabilir) ve bir sayfada yalnızca bir modül örneği bulunabilir.</value>
+  </data>
+  <data name="CacheProvider.Help" xml:space="preserve">
+    <value>Bu sayfa için kullanılacak sağlayıcıyı seçin.</value>
+  </data>
+  <data name="CacheDuration.Help" xml:space="preserve">
+    <value>Sayfayı önbelleğe almak için süreyi (saniye cinsinden) girin. Bu bir tam sayı olmalıdır.</value>
+  </data>
+  <data name="CacheProvider.Text" xml:space="preserve">
+    <value>Çıkış Önbellek Sağlayıcısı</value>
+  </data>
+  <data name="CacheDuration.Text" xml:space="preserve">
+    <value>Önbellek Süresi (saniye)</value>
+  </data>
+  <data name="CacheDurationWarning.Text" xml:space="preserve">
+    <value>Bu modül, önbelleği devre dışı bırakma önerisinde bulunmuştur (yukarıdaki Çıkış Önbellek Sağlayıcı listesinden YOK'u seçin). Bu modülde önbelleği etkinleştirmek önerilmez ve modülün eski verileri göstermesine neden olabilir.</value>
+  </data>
+  <data name="CacheInherited.Text" xml:space="preserve">
+    <value>Miras Alınan</value>
+  </data>
+  <data name="plTags.Help" xml:space="preserve">
+    <value>Bu modülü etiketlemek için açılır menüden öğeler seçin.</value>
+  </data>
+  <data name="plTags.Text" xml:space="preserve">
+    <value>Etiketler:</value>
+  </data>
+  <data name="plAdminBorder.Help" xml:space="preserve">
+    <value>Bu kutuyu işaretleyerek, modülün en üstünde yalnızca yöneticilere görünen mesajı bastırabilirsiniz (ek izinler verilmediyse).</value>
+  </data>
+  <data name="plAdminBorder.Text" xml:space="preserve">
+    <value>Yönetici mesajını gizle</value>
+  </data>
+  <data name="cultureLabel.Help" xml:space="preserve">
+    <value>Bu modül için kültür.</value>
+  </data>
+  <data name="cultureLabel.Text" xml:space="preserve">
+    <value>Modül Kültürü:</value>
+  </data>
+  <data name="defaultCultureLabel.Help" xml:space="preserve">
+    <value>Bu modülün varsayılan kültürdeki sürümünü görüntülemek için bu bağlantıya tıklayın.</value>
+  </data>
+  <data name="defaultCultureLabel.Text" xml:space="preserve">
+    <value>Varsayılan Kültür:</value>
+  </data>
+  <data name="Bind.Text" xml:space="preserve">
+    <value>Bağla</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="UnBind.Text" xml:space="preserve">
+    <value>Çöz</value>
+  </data>
+  <data name="LocalizedModules.Text" xml:space="preserve">
+    <value>Modül Yerelleştirme</value>
+  </data>
+  <data name="Translated.Text" xml:space="preserve">
+    <value>Çevrileni İşaretle</value>
+  </data>
+  <data name="UnTranslated.Text" xml:space="preserve">
+    <value>Çevrilmeyeni İşaretle</value>
+  </data>
+  <data name="CreateBoundCopies.Text" xml:space="preserve">
+    <value>Bağlı Kopyalar Oluştur</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>İzinler</value>
+  </data>
+  <data name="CacheSettings.Text" xml:space="preserve">
+    <value>Önbellek Ayarları</value>
+  </data>
+  <data name="ContainerPreview.Text" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+  <data name="ExpandAll.Text" xml:space="preserve">
+    <value>Tümünü Genişlet</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Önizlemek için bir konteyner seçin.</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>Bu modül başka hiçbir sayfaya eklenmedi.</value>
+  </data>
+  <data name="Page.Header" xml:space="preserve">
+    <value>Sayfa</value>
+  </data>
+  <data name="Site.Header" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>{0} Ayarları</value>
+  </data>
+  <data name="AllowIndexLabel.Help" xml:space="preserve">
+    <value>Modülün arama tarayıcıları tarafından dizine eklenmesi gerekiyorsa bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="AllowIndexLabel.Text" xml:space="preserve">
+    <value>Dizinlemeye İzin Ver</value>
+  </data>
+  <data name="isShareableLabel.Help" xml:space="preserve">
+    <value>Modülün siteler arasında paylaşılmasına izin vermek için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="isShareableLabel.Text" xml:space="preserve">
+    <value>Paylaşılabilir</value>
+  </data>
+  <data name="isShareableViewOnlyLabel.Help" xml:space="preserve">
+    <value>Modülün sadece Görüntüleme olarak paylaşılmasını kısıtlamak için bu kutuyu işaretleyin.</value>
+  </data>
+  <data name="isShareableViewOnlyLabel.Text" xml:space="preserve">
+    <value>Yalnızca Görüntüleme</value>
+  </data>
+  <data name="MonikerExists.Text" xml:space="preserve">
+    <value>Moniker'ın yeni değeri zaten mevcut; portalda benzersiz olmalıdır.</value>
+  </data>
+  <data name="plModuleId.Help" xml:space="preserve">
+    <value>Modülün kimliğini görüntüler.</value>
+  </data>
+  <data name="plModuleId.Text" xml:space="preserve">
+    <value>Modül Kimliği</value>
+  </data>
+</root>
