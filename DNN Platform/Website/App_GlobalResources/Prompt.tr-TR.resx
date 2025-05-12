@@ -151,7 +151,7 @@
     <value>Modül eklenmeye çalışılırken bir hata oluştu. Detaylar için DNN Yönetici Kayıtlarına bakınız.</value>
   </data>
   <data name="Prompt_DesktopModuleNotFound.Text" xml:space="preserve">
-    <value>Bu portal için '{0}' adlı bir masaüstü modül bulunamadı.</value>
+    <value>Bu portal için '{0}' adlı bir masaüstü modül bulunamadı</value>
   </data>
   <data name="Prompt_ModuleAdded.Text" xml:space="preserve">
     <value>Başarıyla {0} yeni modül eklendi{1}</value>
@@ -184,7 +184,7 @@
     <value>Bu işlemi gerçekleştirmek için yeterli izniniz yok.</value>
   </data>
   <data name="Prompt_ModuleNotFound.Text" xml:space="preserve">
-    <value>{1} kimliğine sahip sayfada {0} kimliğine sahip modül bulunamadı.</value>
+    <value>{1} kimliğine sahip sayfada {0} kimliğine sahip modül bulunamadı</value>
   </data>
   <data name="Prompt_NoModule.Text" xml:space="preserve">
     <value>{0} kimliğine sahip modül bulunamadı.</value>
@@ -196,7 +196,7 @@
     <value>Kullanıcı bir Uygulama Yeniden Başlatma tetikledi</value>
   </data>
   <data name="Prompt_RestartApplication_Description.Text" xml:space="preserve">
-    <value>DNN örneğini yeniden başlatır ve sayfayı yeniden yükler</value>
+    <value>DNN örneğini yeniden başlatır ve sayfayı yeniden yükler.</value>
   </data>
   <data name="Prompt_Default.Text" xml:space="preserve">
     <value>Varsayılan</value>
@@ -705,16 +705,29 @@
     <value>Sunucunun önbelleğini temizler ve sayfayı yeniden yükler.</value>
   </data>
   <data name="Prompt_ClearCache_ResultHtml.Text" xml:space="preserve">
-    <value>Geçici belleği temizler</value>
+    <value>   &lt;code class="block"&gt;
+      clear-cache
+    &lt;/code&gt;
+    &lt;h4&gt;Results&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;&lt;td&gt;Geçici bellek temizlendi&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;3 saniye içinde yeniden yükleniyor&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
   </data>
   <data name="Prompt_ClearHistory_Description.Text" xml:space="preserve">
     <value>Geçerli oturumda kullanılan komut geçmişini temizler</value>
   </data>
   <data name="Prompt_ClearLog_Description.Text" xml:space="preserve">
-    <value>Geçerli portal için Olay Günlüğünü temizler</value>
+    <value>Geçerli portal için Olay Günlüğünü temizler.</value>
   </data>
   <data name="Prompt_ClearLog_ResultHtml.Text" xml:space="preserve">
-    <value>Olay Günlüğü temizlendi</value>
+    <value>&lt;code class="block"&gt;
+      clear-log
+    &lt;/code&gt;
+    &lt;h4&gt;Results&lt;/h4&gt;
+    &lt;table class="command-result-tbl"&gt;
+      &lt;tr&gt;&lt;td&gt;&lt;em&gt;[Event Log Cleared]&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</value>
   </data>
   <data name="Prompt_Cls_Description.Text" xml:space="preserve">
     <value>Prompt konsolunu temizler. cls clear-screen için bir kısayoldur</value>
@@ -723,7 +736,7 @@
     <value>Alınan ilk argümanı geri yansıtır</value>
   </data>
   <data name="Prompt_Exit_Description.Text" xml:space="preserve">
-    <value>Prompt konsolundan çıkar</value>
+    <value>Prompt konsolundan çıkar.</value>
   </data>
   <data name="Prompt_GetHost_Description.Text" xml:space="preserve">
     <value>DNN kurulumu hakkında bilgi alır</value>
@@ -966,13 +979,13 @@
     <value>Tüm komutları listeler.</value>
   </data>
   <data name="Prompt_ListPortals_Description.Text" xml:space="preserve">
-    <value>Geçerli DNN Kurulumu için portal listesini alır.</value>
+    <value>Geçerli DNN Kurulumu için portal listesini alır</value>
   </data>
   <data name="Prompt_ListSites_Description.Text" xml:space="preserve">
-    <value>Geçerli DNN Kurulumu için portal listesini alır.</value>
+    <value>Geçerli DNN Kurulumu için portal listesini alır</value>
   </data>
   <data name="Prompt_Reload_Description.Text" xml:space="preserve">
-    <value>Geçerli sayfayı yeniden yükler.</value>
+    <value>Geçerli sayfayı yeniden yükler</value>
   </data>
   <data name="Prompt_PagingMessage.Text" xml:space="preserve">
     <value>Sayfa {0} / {1}.</value>
@@ -1068,7 +1081,7 @@
     <value>get-portal komutu herhangi bir argüman veya bayrak almaz.</value>
   </data>
   <data name="Prompt_GetPortal_NotFound.Text" xml:space="preserve">
-    <value>ID'si '{0}' olan bir portal bulunamadı.</value>
+    <value>ID'si '{0}' olan bir portal bulunamadı</value>
   </data>
   <data name="Prompt_GetPortal_Found.Text" xml:space="preserve">
     <value>'{0}' Portal bulundu.</value>
@@ -1187,13 +1200,13 @@
     &lt;/table&gt;</value>
   </data>
   <data name="Prompt_ListServices_ImplementationFactory.Text" xml:space="preserve">
-    <value>&lt;em&gt; { Fabrika Yöntemi } &lt;/em&gt;</value>
+    <value>&lt;em&gt; { Factory Method } &lt;/em&gt;</value>
   </data>
   <data name="Prompt_ListServices_ImplementationInstance.Text" xml:space="preserve">
-    <value>&lt;em&gt; { Belirli Örnek } &lt;/em&gt;</value>
+    <value>&lt;em&gt; { Specific Instance } &lt;/em&gt;</value>
   </data>
   <data name="Prompt_ListServices_None.Text" xml:space="preserve">
-    <value>&lt;em&gt; { Hiçbiri } &lt;/em&gt;</value>
+    <value>&lt;em&gt; { None } &lt;/em&gt;</value>
   </data>
   <data name="Prompt_ListServices_Unauthorized.Text" xml:space="preserve">
     <value>Bu işlevi erişmek için yetkiniz yok.</value>
