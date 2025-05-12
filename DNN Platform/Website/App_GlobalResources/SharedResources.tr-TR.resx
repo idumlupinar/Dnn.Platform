@@ -322,7 +322,7 @@
     <value>Kayıt sırasında beklenmeyen bir hata oluştu. Daha fazla bilgi için Yönetici ile iletişime geçiniz.</value>
   </data>
   <data name="PaneNotFound.Error" xml:space="preserve">
-    <value>Tema için ContentPane bulunamıyor.</value>
+    <value>Tema için ContentPane bulunamıyor</value>
   </data>
   <data name="ContractExpired.Error" xml:space="preserve">
     <value>{0} için barındırma sözleşmesi {1} tarihinde sona erdi. Daha fazla bilgi için &lt;a href="mailto:{2}"&gt;{2}&lt;/a&gt; ile iletişime geçiniz.</value>
@@ -340,7 +340,7 @@
     <value>Modül yüklenirken ele alınmayan bir hata oluştu.</value>
   </data>
   <data name="ModuleAdd.Error" xml:space="preserve">
-    <value>Modül eklenirken işlenmeyen hata.</value>
+    <value>{0} birimine modül eklenirken işlenmeyen hata.</value>
   </data>
   <data name="ContainerLoad.Error" xml:space="preserve">
     <value>Konteyner yüklenemedi: {0}</value>
@@ -472,10 +472,10 @@
     <value>Bitir</value>
   </data>
   <data name="cmdBack.Help" xml:space="preserve">
-    <value>Önceki sayfaya gitmek için tıklayın</value>
+    <value>Önceki sayfaya gitmek için tıklayın.</value>
   </data>
   <data name="cmdNext.Help" xml:space="preserve">
-    <value>Sonraki sayfaya gitmek için tıklayın</value>
+    <value>Sonraki sayfaya gitmek için tıklayın.</value>
   </data>
   <data name="Left.Text" xml:space="preserve">
     <value>Sol</value>
@@ -529,7 +529,7 @@
     <value>Bir dosyanın bir ad değeri olmalı, işlem durduruluyor</value>
   </data>
   <data name="EXCEPTION_FileRead.Text" xml:space="preserve">
-    <value>Tüm veriler okunamadı:</value>
+    <value>Tüm veriler okunamadı: </value>
   </data>
   <data name="EXCEPTION_FolderDesc.Text" xml:space="preserve">
     <value>Bir klasörün bir açıklama değeri olmalı, işlem durduruluyor</value>
@@ -1036,7 +1036,7 @@
     <value>Kullanıcı Kaydı</value>
   </data>
   <data name="Required.Text" xml:space="preserve">
-    <value>Kırmızı bir yıldızla işaretlenmiş tüm alanlar zorunludur.</value>
+    <value>Kırmızı bir yıldızla işaretlenmiş tüm alanlar zorunludur. </value>
   </data>
   <data name="VerifiedMembership.Text" xml:space="preserve">
     <value>&lt;strong&gt;*Not:&lt;/strong&gt; Bu web sitesine üyelik doğrulanmıştır. Hesap bilgileriniz gönderildikten sonra, hesabınızı doğrulamak için kullanabileceğiniz bir bağlantı içeren bir e-posta alacaksınız.</value>
@@ -1240,16 +1240,16 @@
     <value>Modül başarıyla kaydedildi - {0}</value>
   </data>
   <data name="MODULE_AdminPagemoduleAdded.Text" xml:space="preserve">
-    <value>Modül {0} portalında Admin sayfasına eklendi.</value>
+    <value>Modül {1} portalında {0} Admin sayfasına eklendi.</value>
   </data>
   <data name="MODULE_AdminPagemoduleRemoved.Text" xml:space="preserve">
-    <value>Modül {0} portalında Admin sayfasından kaldırıldı.</value>
+    <value>Modül {1} portalında {0} Admin sayfasından kaldırıldı.</value>
   </data>
   <data name="MODULE_AdminPageRemoved.Text" xml:space="preserve">
-    <value>Admin sayfası {0} portalından kaldırıldı.</value>
+    <value>Admin sayfası {0} {1} portalından kaldırıldı.</value>
   </data>
   <data name="MODULE_AdminPageAdded.Text" xml:space="preserve">
-    <value>Admin sayfası {0} porta eklendi.</value>
+    <value>Admin sayfası {0} {1} portalına eklendi.</value>
   </data>
   <data name="MODULE_HostAdded.Text" xml:space="preserve">
     <value>Modül Host sayfasına {0} eklendi.</value>
