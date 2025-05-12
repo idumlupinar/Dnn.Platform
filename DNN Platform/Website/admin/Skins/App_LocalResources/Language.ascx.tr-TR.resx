@@ -124,15 +124,15 @@
     <value>&lt;/div&gt;</value>
   </data>
   <data name="CommonHeaderTemplate.Default" xml:space="preserve">
-    <value>&lt;div class="dil-nesnesi" &gt;</value>
+    <value>&lt;div class="language-object" &gt;</value>
   </data>
   <data name="ItemTemplate.Default" xml:space="preserve">
-    <value>&lt;span class="Dil" title="[CULTURE:NATIVENAME]"&gt;&lt;a href="[URL]" &gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NAME]" /&gt;&lt;/a&gt;&lt;/span&gt;</value>
+    <value>&lt;span class="Language" title="[CULTURE:NATIVENAME]"&gt;&lt;a href="[URL]" &gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NAME]" /&gt;&lt;/a&gt;&lt;/span&gt;</value>
   </data>
   <data name="Label.Text" xml:space="preserve">
     <value>Dil Seçin: </value>
   </data>
   <data name="SelectedItemTemplate.Default" xml:space="preserve">
-    <value>&lt;span class="Dil seçildi" title="[CULTURE:NATIVENAME]" &gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NAME]" /&gt;&lt;/span&gt;</value>
+    <value>&lt;span class="Language selected" title="[CULTURE:NATIVENAME]" &gt;&lt;img src="[I][FLAGSRC]" alt="[CULTURE:NAME]" /&gt;&lt;/span&gt;</value>
   </data>
 </root>
