@@ -119,15 +119,15 @@
   </resheader>
   <data name="DefaultTemplate.Text" xml:space="preserve">
     <value>&lt;div id="UserProfile"&gt;
-	&lt;img alt="Profil Avatarı" class="ProfilFotoğrafı" width="120" height="120" src="[PROFILE:PHOTO]" /&gt;
-	&lt;div class="ProfilAdresi"&gt;
-		&lt;div class="ProfilAdı"&gt;[USER:DISPLAYNAME]&lt;/div&gt;
+	&lt;img alt="Profile Avatar" class="ProfilePhoto" width="120" height="120" src="[PROFILE:PHOTO]" /&gt;
+	&lt;div class="ProfileAddress"&gt;
+		&lt;div class="ProfileName"&gt;[USER:DISPLAYNAME]&lt;/div&gt;
 		&lt;div&gt;[PROFILE:STREET]&lt;/div&gt;
 		&lt;div&gt;[PROFILE:CITY], [PROFILE:REGION]  [PROFILE:POSTALCODE]&lt;/div&gt;
 		&lt;div&gt;[PROFILE:COUNTRY]&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class="Profilİletişim"&gt;[PROFILE:TELEPHONE] [PROFILE:WEBSITE] [PROFILE:IM]&lt;/div&gt;&lt;div style="clear:both;"&gt;&lt;/div&gt;
-	&lt;div class="ProfilBiyo"&gt;[PROFILE:BIOGRAPHY]&lt;/div&gt;
+	&lt;div class="ProfileContact"&gt;[PROFILE:TELEPHONE] [PROFILE:WEBSITE] [PROFILE:IM]&lt;/div&gt;&lt;div style="clear:both;"&gt;&lt;/div&gt;
+	&lt;div class="ProfileBio"&gt;[PROFILE:BIOGRAPHY]&lt;/div&gt;
 &lt;/div&gt;</value>
   </data>
 </root>
