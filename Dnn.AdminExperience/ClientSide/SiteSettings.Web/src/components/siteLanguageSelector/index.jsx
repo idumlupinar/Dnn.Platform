@@ -34,7 +34,7 @@ class SiteLanguageSelector extends Component {
                 }));
             }
             else {
-                props.dispatch(SearchActions.getCultureList(state.portalId));
+                props.dispatch(SearchActions.getCultureList(props.portalId));
             }
         });
 
@@ -143,7 +143,7 @@ class SiteLanguageSelector extends Component {
     }
 
     validateCultureCode() {
-        const {state, props} = this;
+        const {props} = this;
 
         if (props.languages.filter(language => {
             return language.Code === state.cultureCode;
