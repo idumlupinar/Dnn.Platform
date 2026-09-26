@@ -14,6 +14,7 @@ class Dropdown extends Component {
         this.state = {
             dropDownOpen: false,
             dropdownText: "",
+            searchText: "",
             closestValue: null,
             selectedOption: {}
         };
