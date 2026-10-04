@@ -41,6 +41,7 @@ class App extends Component {
         this.changePortalId = this.changePortalId.bind(this);
         this.changeCultureCode = this.changeCultureCode.bind(this);
         this.changePortalIdCultureCode = this.changePortalIdCultureCode.bind(this);
+        this.pendingCultureCode = undefined;
     }
 
     backToReferrer(callback) {
@@ -67,14 +68,28 @@ class App extends Component {
 
     changeCultureCode(cultureCode) {
         const { state } = this;
-        if (cultureCode === undefined || cultureCode === state.cultureCode) return;
+        if (cultureCode === undefined) return;
+        if (cultureCode === state.cultureCode && this.pendingCultureCode === undefined) return;
+        this.pendingCultureCode = cultureCode;
         this.setState({
             bodyShowing: false
         }, () => {
-            this.setState({
-                bodyShowing: true,
-                cultureCode
+            this.loadCultureResources(cultureCode, () => {
+                this.setState({
+                    bodyShowing: true,
+                    cultureCode
+                });
             });
+        });
+    }
+
+    // Loads the UI strings of the language being edited, then runs the callback
+    // unless a newer language change was requested in the meantime.
+    loadCultureResources(cultureCode, callback) {
+        resx.loadCulture(cultureCode, () => {
+            if (this.pendingCultureCode !== cultureCode) return;
+            this.pendingCultureCode = undefined;
+            callback();
         });
     }
 
@@ -88,15 +103,18 @@ class App extends Component {
             this.changePortalId(portalId);
         }
         else {
+            this.pendingCultureCode = cultureCode;
             this.setState({
                 bodyShowing: false
             }, () => {
-                this.setState({
-                    bodyShowing: true,
-                    portalId,
-                    cultureCode
-                }, () => props.dispatch(siteInfo.updatePortalId(portalId))
-                );
+                this.loadCultureResources(cultureCode, () => {
+                    this.setState({
+                        bodyShowing: true,
+                        portalId,
+                        cultureCode
+                    }, () => props.dispatch(siteInfo.updatePortalId(portalId))
+                    );
+                });
             });
         }
     }
