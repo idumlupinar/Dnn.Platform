@@ -57,7 +57,9 @@ class SiteLanguageSelector extends Component {
         if (props.portalId !== undefined && props.portalId !== prevProps.portalId) {
             this.onSiteChange({ value: props.portalId });         
         }
-        if (props.cultureCode !== state.cultureCode) {
+        // Only follow the parent when it changes the culture; the parent updates asynchronously
+        // after a flag click, so comparing with the local state alone would undo that click.
+        if (props.cultureCode !== prevProps.cultureCode && props.cultureCode !== state.cultureCode) {
             this.onLanguageChange({ value: props.cultureCode });
         }
     }
