@@ -1,4 +1,4 @@
-﻿// Licensed to the .NET Foundation under one or more agreements.
+// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information
 
@@ -52,6 +52,8 @@ namespace Dnn.PersonaBar.UI.Services
         {
             try
             {
+                // The culture is used to build a cache file path, so only accept installed languages.
+                culture = GetInstalledCulture(culture);
                 var resources = this.GetResourcesFromFile(culture);
                 if (resources == null)
                 {
@@ -72,6 +74,20 @@ namespace Dnn.PersonaBar.UI.Services
                 Exceptions.LogException(ex);
                 return this.Request.CreateErrorResponse(HttpStatusCode.NotFound, ex.Message);
             }
+        }
+
+        private static string GetInstalledCulture(string culture)
+        {
+            if (!string.IsNullOrWhiteSpace(culture))
+            {
+                var locales = LocaleController.Instance.GetLocales(Null.NullInteger);
+                if (locales != null && locales.TryGetValue(culture, out var locale))
+                {
+                    return locale.Code;
+                }
+            }
+
+            return Localization.SystemLocale;
         }
 
         private static string GetJsonFileContent(string culture)
